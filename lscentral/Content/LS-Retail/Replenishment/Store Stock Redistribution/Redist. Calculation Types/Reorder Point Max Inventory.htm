@@ -1,0 +1,400 @@
+<!DOCTYPE html>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" lang="en-us" xml:lang="en-us" class="_Skins_HTML5___Side_Navigation" data-mc-search-type="Stem" data-mc-help-system-file-name="Default.xml" data-mc-path-to-help-system="../../../../../" data-mc-has-content-body="True" data-mc-target-type="WebHelp2" data-mc-runtime-file-type="Topic;Default" data-mc-preload-images="false" data-mc-in-preview-mode="false" data-mc-toc-path="Retail|Replenishment|Store Stock Redistribution|[%=System.LinkedTitle%]">
+    <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <meta charset="utf-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+        <meta name="msapplication-config" content="../../../../../Skins/Favicons/browserconfig.xml" />
+        <link rel="apple-touch-icon" sizes="180x180" href="../../../../../Skins/Favicons/apple-touch-icon.png" />
+        <link rel="shortcut icon" href="../../../../../Skins/Favicons/favicon-32x32.png" />
+        <link rel="icon" sizes="96x96" href="../../../../../Skins/Favicons/favicon-96x96.png" />
+        <link rel="icon" sizes="32x32" href="../../../../../Skins/Favicons/favicon-32x32.png" />
+        <link rel="icon" sizes="16x16" href="../../../../../Skins/Favicons/favicon-16x16.png" /><title>Calculation Type: Reorder Point/Max. Inventory</title>
+        <link rel="shortcut icon" href="/Content/Resources/Images/favicon.ico" />
+        <link href="../../../../../Skins/Default/Stylesheets/Slideshow.css" rel="stylesheet" />
+        <link href="../../../../../Skins/Default/Stylesheets/TextEffects.css" rel="stylesheet" />
+        <link href="../../../../../Skins/Default/Stylesheets/Topic.css" rel="stylesheet" />
+        <link href="../../../../../Skins/Default/Stylesheets/Components/Styles.css" rel="stylesheet" />
+        <link href="../../../../../Skins/Default/Stylesheets/Components/Tablet.css" rel="stylesheet" />
+        <link href="../../../../../Skins/Default/Stylesheets/Components/Mobile.css" rel="stylesheet" />
+        <link href="../../../../../Skins/Fluid/Stylesheets/foundation.6.2.3.css" rel="stylesheet" />
+        <link href="../../../../../Skins/Fluid/Stylesheets/Styles.css" rel="stylesheet" />
+        <link href="../../../../../Skins/Fluid/Stylesheets/Tablet.css" rel="stylesheet" />
+        <link href="../../../../../Skins/Fluid/Stylesheets/Mobile.css" rel="stylesheet" />
+        <link href="../../../../Resources/Stylesheets/LSNav.css" rel="stylesheet" />
+        <link href="../../../../Resources/Table Styles/To_SeeTable.css" rel="stylesheet" />
+        <script src="../../../../../Resources/Scripts/jquery.min.js">
+        </script>
+        <script src="../../../../../Resources/Scripts/require.min.js" defer="defer">
+        </script>
+        <script src="../../../../../Resources/Scripts/require.config.js" defer="defer">
+        </script>
+        <script src="../../../../../Resources/Scripts/foundation.6.2.3_custom.js" defer="defer">
+        </script>
+        <script src="../../../../../Resources/Scripts/plugins.min.js" defer="defer">
+        </script>
+        <script src="../../../../../Resources/Scripts/MadCapAll.js" defer="defer">
+        </script>
+        <script src="../../../../Resources/Javascripts/Scroll-Button.js" defer="defer">
+        </script>
+    </head>
+    <body>
+        <div class="foundation-wrap off-canvas-wrapper">
+            <div class="off-canvas-wrapper-inner" data-off-canvas-wrapper="">
+                <aside class="off-canvas position-right" role="navigation" id="offCanvas" data-off-canvas="" data-position="right" data-mc-ignore="true">
+                    <ul class="off-canvas-accordion vertical menu off-canvas-list" data-accordion-menu="" data-mc-back-link="Back" data-mc-css-tree-node-expanded="is-accordion-submenu-parent" data-mc-css-tree-node-collapsed="is-accordion-submenu-parent" data-mc-css-sub-menu="vertical menu is-accordion-submenu nested" data-mc-include-indicator="False" data-mc-include-icon="False" data-mc-include-parent-link="True" data-mc-include-back="False" data-mc-defer-expand-event="True" data-mc-expand-event="click.zf.accordionMenu" data-mc-toc="True">
+                    </ul>
+                </aside>
+                <div class="off-canvas-content inner-wrap" data-off-canvas-content="">
+                    <div data-sticky-container="" class="title-bar-container">
+                        <nav class="title-bar tab-bar sticky" data-sticky="" data-options="marginTop:0" style="width:100%" data-sticky-on="only screen and (max-width: 1279px)" data-mc-ignore="true"><a class="skip-to-content fluid-skip showOnFocus" href="#">Skip To Main Content</a>
+                            <div class="middle title-bar-section outer-row clearfix">
+                                <div class="menu-icon-container relative clearfix">
+                                    <div class="central-dropdown" style="display:none;" id="#centralSmallScreen"><a class="central-account-drop"><span class="central-account-image"></span><span class="central-account-text">Account</span></a>
+                                        <div class="central-dropdown-content"><a class="MCCentralLink central-dropdown-content-settings">Settings</a>
+                                            <hr class="central-separator" /><a class="MCCentralLink central-dropdown-content-logout">Logout</a>
+                                        </div>
+                                    </div>
+                                    <button class="menu-icon" aria-label="Show Navigation Panel" data-toggle="offCanvas"><span></span>
+                                    </button>
+                                </div>
+                            </div>
+                            <div class="title-bar-layout outer-row">
+                                <div class="logo-wrapper"><a class="logo" href="../../../../home.html" title="LS Central Help" alt="Logo"></a>
+                                </div>
+                                <div class="navigation-wrapper nocontent">
+                                    <ul class="navigation clearfix" data-mc-css-tree-node-has-children="has-children" data-mc-css-sub-menu="sub-menu" data-mc-expand-event="mouseenter" data-mc-top-nav-menu="True" data-mc-max-depth="3" data-mc-include-icon="False" data-mc-include-indicator="False" data-mc-include-children="True" data-mc-include-siblings="True" data-mc-include-parent="True" data-mc-toc="True">
+                                        <li class="placeholder" style="visibility:hidden"><a>placeholder</a>
+                                        </li>
+                                    </ul>
+                                    <div class="central-dropdown" style="display:none;" id="#centralTop"><a class="central-account-drop"><span class="central-account-image"></span><span class="central-account-text">Account</span></a>
+                                        <div class="central-dropdown-content"><a class="MCCentralLink central-dropdown-content-settings">Settings</a>
+                                            <hr class="central-separator" /><a class="MCCentralLink central-dropdown-content-logout">Logout</a>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="nav-search-wrapper">
+                                    <div class="nav-search row">
+                                        <form class="search" action="#">
+                                            <div class="search-bar search-bar-container needs-pie">
+                                                <input class="search-field needs-pie" type="search" aria-label="Search Field" placeholder="Search" />
+                                                <div class="search-filter-wrapper"><span class="invisible-label" id="search-filters-label">Filter: </span>
+                                                    <div class="search-filter" aria-haspopup="true" aria-controls="sf-content" aria-expanded="false" aria-label="Search Filter" title="All Files" role="button" tabindex="0">
+                                                    </div>
+                                                    <div class="search-filter-content" id="sf-content">
+                                                        <ul>
+                                                            <li>
+                                                                <button class="mc-dropdown-item" aria-labelledby="search-filters-label filterSelectorLabel-00001"><span id="filterSelectorLabel-00001">All Files</span>
+                                                                </button>
+                                                            </li>
+                                                        </ul>
+                                                    </div>
+                                                </div>
+                                                <div class="search-submit-wrapper" dir="ltr">
+                                                    <div class="search-submit" title="Search" role="button" tabindex="0"><span class="invisible-label">Submit Search</span>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </form>
+                                    </div>
+                                    <div class="central-dropdown" style="display:none;"><a class="central-account-drop"><span class="central-account-image"></span><span class="central-account-text">Account</span></a>
+                                        <div class="central-dropdown-content"><a class="MCCentralLink central-dropdown-content-settings">Settings</a>
+                                            <hr class="central-separator" /><a class="MCCentralLink central-dropdown-content-logout">Logout</a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </nav>
+                    </div>
+                    <div class="main-section">
+                        <div class="row outer-row sidenav-layout">
+                            <nav class="sidenav-wrapper">
+                                <div class="sidenav-container">
+                                    <ul class="off-canvas-accordion vertical menu sidenav" data-accordion-menu="" data-mc-css-tree-node-expanded="is-accordion-submenu-parent" data-mc-css-tree-node-collapsed="is-accordion-submenu-parent" data-mc-css-sub-menu="vertical menu accordion-menu is-accordion-submenu nested" data-mc-include-indicator="False" data-mc-include-icon="False" data-mc-include-parent-link="False" data-mc-include-back="False" data-mc-defer-expand-event="True" data-mc-expand-event="click.zf.accordionMenu" data-mc-toc="True" data-mc-side-nav-menu="True">
+                                    </ul>
+                                </div>
+                            </nav>
+                            <div class="body-container">
+                                <div data-mc-content-body="True">
+                                    <MadCap:conditionalText data-mc-conditions="Default.GoogleAnalytics">
+                                        <script>/* <![CDATA[ */
+				(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+				(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+				m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+				})(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+			
+				ga('create', 'UA-58791693-4', 'auto');
+			
+				var file = document.location.href; 
+				file = file.substring(0, (file.indexOf("#") == -1) ? file.length : file.indexOf("#"));
+				file = file.substring(0, (file.indexOf("?") == -1) ? file.length : file.indexOf("?"));
+				file = file.substring(file.lastIndexOf("/") + 1, file.length);
+ 
+				if (file === 'Search.htm') 
+				{
+					var newPath = document.location.pathname + document.location.search + document.location.hash;
+					newPath = newPath.replace(/#/, '?');
+					newPath = newPath.replace(/search\-/, 'q=');
+					ga('set', 'page', newPath);
+				
+					function locationHashChanged()
+					{
+						newPath = document.location.pathname + document.location.search + document.location.hash;
+						newPath = newPath.replace(/#/, '?');
+						newPath = newPath.replace(/search\-/, 'q=');
+						ga('set', 'page', newPath);
+						ga('send', 'pageview');
+					}
+				
+					if(window.HashChangeEvent)
+					{
+						window.onhashchange = locationHashChanged;
+					}
+				}
+				ga('send', 'pageview');
+			/* ]]> */</script>
+                                    </MadCap:conditionalText>
+                                    <div class="nocontent">
+                                        <div class="MCBreadcrumbsBox_0 breadcrumbs" role="navigation" aria-label="Breadcrumbs" data-mc-breadcrumbs-divider=" &gt; " data-mc-breadcrumbs-count="3" data-mc-toc="True"><span class="MCBreadcrumbsPrefix">You are here: </span>
+                                        </div>
+                                    </div>
+                                    <p>&#160;</p>
+                                    <div role="main" id="mc-main-content">
+                                        <h1><a name="aanchor2666"></a>
+                                            <MadCap:concept term="Retail" />Calculation Type: Reorder Point/Max. Inventory</h1>
+                                        <p>Store Stock Redistribution supports different calculation types to identify the items that need to be redistributed to other stores. </p>
+                                        <p class="shortcut"><a href="#Calculation" class="MCXref xref">Calculation example</a>
+                                        </p>
+                                        <p class="shortcut"><a href="#Setup" class="MCXref xref">Setup fields on Redist. Template</a>
+                                        </p>
+                                        <p class="shortcut"><a href="#Filters" class="MCXref xref">Filters on Redist. Template</a>
+                                        </p>
+                                        <p class="shortcut"><a href="#CalculationResult" class="MCXref xref">Calculation result</a>
+                                        </p>
+                                        <p class="shortcut"><a href="#Fields" class="MCXref xref">Fields on Redistribution Journal Preview</a>
+                                        </p>
+                                        <p class="shortcut"><a href="#See" class="MCXref xref">See also</a>
+                                        </p>
+                                        <p>The <b>Reorder Point/Max. Inventory</b> calculation type calculates the current stock for the items in the stores and warehouses. Depending on the fields <b>Reorder Point</b> and <b>Maximum Inventory</b>, as well as the current stock, the system will classify locations into locations with supply or demand.</p>
+                                        <h2><a name="Calculation"></a>Calculation example</h2>
+                                        <p>Item 10000 has Inventory in four locations. The Redist. Calculation Type <b>Reorder Point/Max. Inventory</b> is redistributing the items between the locations based on the Replenishment parameters <b>Reorder Point</b> and <b>Maximum Inventory</b> that can be defined on the <b>Replenishment Control Data</b> page. Warehouse locations are considered in this calculation type.</p>
+                                        <p>
+                                            <img src="../../../../Resources/Images/LS Retail/Replenishment/Store Stock Redistribution/Redist. Calc. Type RoP_Max_600x305.png" style="width: 600;height: 305;" />
+                                        </p>
+                                        <p> This calculation type compares the actual Inventory with the Replenishment parameters. A location with Inventory higher than the <b>Maximum Inventory</b> is considered as a location with supply. The Redist. Stock is the difference between Inventory and <b>Maximum Inventory</b>. If no <b>Maximum Inventory</b> is defined, the <b>Reorder Point</b> will be used instead. Analogously, locations with Inventory less than the <b>Reorder Point</b> are considered as locations with demand. After reviewing, if needed, you can overwrite the calculated <b>Redist. Stock</b> and <b>Redist. Demand</b> by manually assigning the transfer quantity per item, variant, and location in the <a href="Retail Item Variant Availability by Location.htm" class="MCXref xref">Retail Item Variant Availability by Location</a> page.</p>
+                                        <p><b>Note:</b> <b>Redist. Demand</b> will be rounded up to the next nearest whole number, and <b>Redist. Stock</b> will be rounded down to the last nearest whole number, if these fields have a decimal value.</p>
+                                        <h2><a name="Setup"></a>Setup fields on Redist. Template</h2>
+                                        <table style="width: 100%;mc-table-style: url('../../../../Resources/Table Styles/To_SeeTable.css');" class="TableStyle-To_SeeTable" cellspacing="1">
+                                            <col class="TableStyle-To_SeeTable-Column-Column1" style="width: 250px;" />
+                                            <col class="TableStyle-To_SeeTable-Column-Column1" />
+                                            <tbody>
+                                                <tr>
+                                                    <th class="TableStyle-To_SeeTable-BodyH-Column1-">Field</th>
+                                                    <th class="TableStyle-To_SeeTable-BodyG-Column1-">Description</th>
+                                                </tr>
+                                                <tr>
+                                                    <td class="TableStyle-To_SeeTable-BodyH-Column1-"><b>Replenishment Type</b>
+                                                    </td>
+                                                    <td class="TableStyle-To_SeeTable-BodyG-Column1-">This field specifies whether the Replenishment Template is to be used for Store Stock Redistribution, or for creating Purchase Orders or Transfer Orders. The selection <i>Redistribution</i> is used for Store Stock Redistribution.</td>
+                                                </tr>
+                                                <tr>
+                                                    <td class="TableStyle-To_SeeTable-BodyH-Column1-"><b>Redistribution Calculation Type</b>
+                                                    </td>
+                                                    <td class="TableStyle-To_SeeTable-BodyG-Column1-">This field specifies the type, how the system calculates the Redist. Stock and Redist. Demand. The available values are:<ul><li class="li_table" value="1"><i>Sales Demand</i></li><li class="li_table" value="2"><i>Stock Balancing</i></li><li class="li_table" value="3"><i>Reorder Point/Max. Inventory</i></li><li class="li_table" value="4"><i>Manual Redistribution</i></li></ul></td>
+                                                </tr>
+                                                <tr>
+                                                    <td class="TableStyle-To_SeeTable-BodyH-Column1-"><b>Redistribution Strategy</b>
+                                                    </td>
+                                                    <td style="font-style: normal;" class="TableStyle-To_SeeTable-BodyG-Column1-">This field specifies the strategy, how the system calculates the trips between stores with Redist. Stock and Redist. Demand. The available values are:<ul><li class="li_table" value="1"><i>Least No. of Trips</i></li><li class="li_table" value="2"><i>Least Cost</i></li><li class="li_table" value="3"><i>Shortest Distance (Direct)</i></li><li class="li_table" value="4"><i>Shortest Distance (Route)</i></li><li class="li_table" value="5"><i>Shortest Duration (Route)</i></li></ul><p class="p_table">For more information see <a href="../Redist. Strategies/Redist. Strategies.htm" class="MCXref xref">Redist. Strategies</a>.</p></td>
+                                                </tr>
+                                                <tr>
+                                                    <td class="TableStyle-To_SeeTable-BodyH-Column1-"><b>Redistribution Warehouse Stock</b>
+                                                    </td>
+                                                    <td class="TableStyle-To_SeeTable-BodyG-Column1-">This field is used for Store Stock Redistribution and defines how available stock in the Warehouse is treated. The available values are:<br /><ul><li class="li_table" value="1"><i>Ignore</i></li><li class="li_table" value="2"><i>Force</i></li><li class="li_table" value="3"><i>Prioritize</i></li><li class="li_table" value="4"><i>Like Store Stock</i></li></ul><p class="p_table">For more information see <a href="../Redist. Strategies/Warehouse.htm">Warehouse in Redistribution.</a></p></td>
+                                                </tr>
+                                                <tr>
+                                                    <td class="TableStyle-To_SeeTable-BodyH-Column1-"><b>Create Journal Lines</b>
+                                                    </td>
+                                                    <td style="font-style: normal;" class="TableStyle-To_SeeTable-BodyG-Column1-">This field specifies  if the Redist. Journal is calculated in one or two steps. The available values are:<ul><li class="li_table" value="1"><i>Create Redist. Preview Only</i></li><li class="li_table" value="2"><i>Create Redist. Preview and Journal Lines</i></li></ul><p class="p_table">The first option will only calculate the Redist. Preview and the user can review the results, adjust, and calculate the Journal Lines in a manual second step.<br />The second option will calculate the Redist. Preview and Journal Lines in one step. </p></td>
+                                                </tr>
+                                                <tr>
+                                                    <td class="TableStyle-To_SeeTable-BodyH-Column1-"><b>Date Calculation Type</b>
+                                                    </td>
+                                                    <td style="font-style: normal;" class="TableStyle-To_SeeTable-BodyG-Column1-">This field specifies whether the start date will be entered manually or calculated based on a given date formula.</td>
+                                                </tr>
+                                                <tr>
+                                                    <td class="TableStyle-To_SeeTable-BodyH-Column1-"><b>Start Date</b>
+                                                    </td>
+                                                    <td style="font-style: normal;" class="TableStyle-To_SeeTable-BodyG-Column1-">This field specifies the starting date to be based on when calculating <b>Sell Through %</b> and <b>Average Daily Sales</b>. This is used when the <b>Date Calculation Type</b> is <i>Date</i>.</td>
+                                                </tr>
+                                                <tr>
+                                                    <td class="TableStyle-To_SeeTable-BodyB-Column1-"><b>Start Date Formula</b>
+                                                    </td>
+                                                    <td style="font-style: normal;" class="TableStyle-To_SeeTable-BodyA-Column1-">This field specifies the formula to calculate the start date to be based on when calculating <b>Sell Through %</b> and <b>Average Daily Sales</b>. This is used when the <b>Date Calculation Type</b> is <i>Date Formula</i>.</td>
+                                                </tr>
+                                            </tbody>
+                                        </table>
+                                        <h2><a name="Filters"></a>Filters on Redist. Template</h2>
+                                        <p>In the Redist. Template you can set the filters that you want to apply to the items considered in the calculation.</p>
+                                        <table style="width: 100%;mc-table-style: url('../../../../Resources/Table Styles/To_SeeTable.css');" class="TableStyle-To_SeeTable" cellspacing="1">
+                                            <col class="TableStyle-To_SeeTable-Column-Column1" style="width: 250px;" />
+                                            <col class="TableStyle-To_SeeTable-Column-Column1" />
+                                            <tbody>
+                                                <tr>
+                                                    <th class="TableStyle-To_SeeTable-BodyH-Column1-">Filter</th>
+                                                    <th class="TableStyle-To_SeeTable-BodyG-Column1-">Description</th>
+                                                </tr>
+                                                <tr>
+                                                    <td class="TableStyle-To_SeeTable-BodyH-Column1-"><b>Vendor No. Filter</b>
+                                                    </td>
+                                                    <td class="TableStyle-To_SeeTable-BodyG-Column1-">This field specifies a filter for the <b>Vendor No.</b> field of the items. An example is 1000 if you only want to select items from vendor number 1000. If you enter 1000..2000 the system will select all items from vendor number 1000 to 2000.</td>
+                                                </tr>
+                                                <tr>
+                                                    <td class="TableStyle-To_SeeTable-BodyH-Column1-"><b>Item Division Code</b>
+                                                    </td>
+                                                    <td class="TableStyle-To_SeeTable-BodyG-Column1-">This field specifies a filter for the <b>Division Code</b> field of the item.</td>
+                                                </tr>
+                                                <tr>
+                                                    <td class="TableStyle-To_SeeTable-BodyH-Column1-"><b>Item Category Filter</b>
+                                                    </td>
+                                                    <td class="TableStyle-To_SeeTable-BodyG-Column1-">This field specifies a filter for the <b>Item Category Code</b> field of the item.</td>
+                                                </tr>
+                                                <tr>
+                                                    <td class="TableStyle-To_SeeTable-BodyH-Column1-"><b>Item Product Group Filter</b>
+                                                    </td>
+                                                    <td class="TableStyle-To_SeeTable-BodyG-Column1-">This field specifies a filter for the <b>Product Group Code</b> field of the item.</td>
+                                                </tr>
+                                                <tr>
+                                                    <td class="TableStyle-To_SeeTable-BodyH-Column1-"><b>Item No. Filter</b>
+                                                    </td>
+                                                    <td class="TableStyle-To_SeeTable-BodyG-Column1-">This field specifies a filter for the item number.</td>
+                                                </tr>
+                                                <tr>
+                                                    <td class="TableStyle-To_SeeTable-BodyH-Column1-"><b>Season Filter</b>
+                                                    </td>
+                                                    <td class="TableStyle-To_SeeTable-BodyG-Column1-">This field specifies a filter for the <b>Season Code</b> field of the item.</td>
+                                                </tr>
+                                                <tr>
+                                                    <td class="TableStyle-To_SeeTable-BodyH-Column1-"><b>Special Group Code Filter</b>
+                                                    </td>
+                                                    <td class="TableStyle-To_SeeTable-BodyG-Column1-">This field specifies a filter for <b>Special Groups</b>. Only items in these Special Groups will be considered in the calculation.</td>
+                                                </tr>
+                                                <tr>
+                                                    <td class="TableStyle-To_SeeTable-BodyH-Column1-"><b>Item Attribute Filter</b>
+                                                    </td>
+                                                    <td class="TableStyle-To_SeeTable-BodyG-Column1-">This field specifies a filter for Attributes.</td>
+                                                </tr>
+                                                <tr>
+                                                    <td class="TableStyle-To_SeeTable-BodyH-Column1-"><b>Variant Dimension Filter</b>
+                                                        <br />
+                                                    </td>
+                                                    <td class="TableStyle-To_SeeTable-BodyG-Column1-">This field specifies a filter for Variant Dimension Values.</td>
+                                                </tr>
+                                                <tr>
+                                                    <td class="TableStyle-To_SeeTable-BodyB-Column1-"><b>From Location Filter</b>
+                                                        <br /><b>To Location Filter</b>
+                                                    </td>
+                                                    <td class="TableStyle-To_SeeTable-BodyA-Column1-">This field specifies a filter for From Location and To Location.<br />When Store Stock Redistribution calculates the inventory in the Locations it classifies Locations into Supply Locations (=From Location Filter) and Demand Locations (=To Location Filter). When the <b>Calculation Type</b> <i>Reorder Point/Max. Inventory</i> is used, Locations that are filtered out will not appear in the Preview and Journal Lines.</td>
+                                                </tr>
+                                            </tbody>
+                                        </table>
+                                        <h2><a name="CalculationResult"></a>Calculation result</h2>
+                                        <p>The calculation of  <b>Redist. Preview</b> is initiated with the <b>Add Items to Journal/Preview</b> action on the <b>Redistribution Replenishment Journal</b> page. </p>
+                                        <p>When the Preview is calculated, the <b>Show Redist. Preview</b> action opens the <b>Redistribution Journal Preview</b> page where you can view the calculated Redist. Demand and Redist. Stock information of the items, as well as the calculated sales factors (such as Sell Through %). Click <a href="../Redist. Process/How to Calculate Redist. Preview.htm">here</a> for more information on how <b>Redist. Preview</b> is calculated.</p>
+                                        <p>From the <b>Redist. Journal Preview</b>, the <b>Show Items Availability</b> action opens up the <b>Retail Item Variant Availability by Location</b> page. There, you view the variant availability and, together with the calculated sales factor (such as Sell Through&#160;%), you can determine how the variants can be redistributed among the stores and manually overwrite the calculated <b>Redist. Stock</b> and <b>Redist. Demand</b>, if needed. For more information on how to manually assign <b>Redist. Stock</b> and <b>Redist. Demand</b> see <a href="Retail Item Variant Availability by Location.htm" class="MCXref xref">Retail Item Variant Availability by Location</a>.</p>
+                                        <p>
+                                            <img src="../../../../Resources/Images/LS Retail/Replenishment/Store Stock Redistribution/P_10012390_Redist_Preview_RoPMax_800x309.png" style="width: 800;height: 309;" class="images" />
+                                        </p>
+                                        <h2><a name="Fields"></a>Fields on Redistribution Journal Preview</h2>
+                                        <table style="width: 100%;mc-table-style: url('../../../../Resources/Table Styles/To_SeeTable.css');" class="TableStyle-To_SeeTable" cellspacing="1">
+                                            <col class="TableStyle-To_SeeTable-Column-Column1" style="width: 250px;" />
+                                            <col class="TableStyle-To_SeeTable-Column-Column1" />
+                                            <tbody>
+                                                <tr>
+                                                    <th class="TableStyle-To_SeeTable-BodyH-Column1-">Field</th>
+                                                    <th class="TableStyle-To_SeeTable-BodyG-Column1-">Description</th>
+                                                </tr>
+                                                <tr>
+                                                    <td class="TableStyle-To_SeeTable-BodyH-Column1-"><b>Item No.</b>
+                                                    </td>
+                                                    <td class="TableStyle-To_SeeTable-BodyG-Column1-">This field shows the Item Number.</td>
+                                                </tr>
+                                                <tr>
+                                                    <td class="TableStyle-To_SeeTable-BodyH-Column1-"><b>Exclude</b>
+                                                    </td>
+                                                    <td class="TableStyle-To_SeeTable-BodyG-Column1-">Items with this check box selected will be excluded from redistribution trips calculation.</td>
+                                                </tr>
+                                                <tr>
+                                                    <td class="TableStyle-To_SeeTable-BodyH-Column1-"><b>Stockout %</b>
+                                                    </td>
+                                                    <td class="TableStyle-To_SeeTable-BodyG-Column1-">This field shows the ratio of out-of-stock item variants to the total number of item variants from all stores.</td>
+                                                </tr>
+                                                <tr>
+                                                    <td class="TableStyle-To_SeeTable-BodyH-Column1-"><b>Variant Availability %</b>
+                                                    </td>
+                                                    <td class="TableStyle-To_SeeTable-BodyG-Column1-">This field shows the ratio of in-stock item variants to the total number of item variants from all stores.</td>
+                                                </tr>
+                                                <tr>
+                                                    <td class="TableStyle-To_SeeTable-BodyH-Column1-"><b>Eff. Inventory</b>
+                                                    </td>
+                                                    <td class="TableStyle-To_SeeTable-BodyG-Column1-">This field shows the total inventory of the item, considering also the Purchase Orders, Sales Orders, and Transfer Orders that have not been posted.</td>
+                                                </tr>
+                                                <tr>
+                                                    <td class="TableStyle-To_SeeTable-BodyH-Column1-"><b>Average Eff. Inventory</b>
+                                                    </td>
+                                                    <td class="TableStyle-To_SeeTable-BodyG-Column1-">This field shows the average effective inventory of the item across all stores.</td>
+                                                </tr>
+                                                <tr>
+                                                    <td class="TableStyle-To_SeeTable-BodyH-Column1-"><b>Avg. Reorder Point</b>
+                                                    </td>
+                                                    <td class="TableStyle-To_SeeTable-BodyG-Column1-"><b>Reorder Point</b> defines a stock quantity that sets the inventory below the level that you must replenish the item. The <b>Avg. Reorder Point</b> is the average <b>Reorder Point</b> defined for the item across all stores.<p class="p_table">A store with inventory less than the <b>Reorder Point</b> is considered as store with demand, and the Redist. Demand is the difference between inventory and <b>Reorder Point</b>.</p><p class="p_table"><b>Example:</b> If you enter 10 in the <b>Reorder Point</b> field and the current inventory level of the item is 3, the system will suggest a demand quantity of 7 (Reorder Point - current inventory).</p></td>
+                                                </tr>
+                                                <tr>
+                                                    <td class="TableStyle-To_SeeTable-BodyH-Column1-"><b>Avg. Max. Inventory</b>
+                                                    </td>
+                                                    <td class="TableStyle-To_SeeTable-BodyG-Column1-"><b>Maximum Inventory</b> is used for inventory control in stores. It defines the level of inventory that should not be exceeded. The <b>Avg. Max. Inventory</b> is the average <b>Maximum Inventory</b> defined for the item across all stores.<p class="p_table">A store with inventory higher than the <b>Maximum Inventory</b> is considered as a store with supply. The Redist. Stock is the difference between inventory and <b>Maximum Inventory</b>. If no <b>Maximum Inventory</b> is defined, the <b>Reorder Point</b> will be used instead. </p><p class="p_table"><b>Example:</b> If you enter 10 in the <b>Reorder Point </b>field and 20 in the <b>Maximum Inventory</b> field, and the current inventory level of the item is 28, the system will suggest a supply quantity of 8 (current inventory - Maximum Inventory).&#160; If the value in the <b>Maximum Inventory </b>field is zero, the system will suggest a supply quantity of 18. </p></td>
+                                                </tr>
+                                                <tr>
+                                                    <td class="TableStyle-To_SeeTable-BodyH-Column1-"><b>Sell Through %</b>
+                                                    </td>
+                                                    <td class="TableStyle-To_SeeTable-BodyG-Column1-">This field shows the ratio of total sold inventory of the item as of today to its total inventory as of start date.</td>
+                                                </tr>
+                                                <tr>
+                                                    <td class="TableStyle-To_SeeTable-BodyH-Column1-"><b>Average Daily Sales</b>
+                                                    </td>
+                                                    <td class="TableStyle-To_SeeTable-BodyG-Column1-">This field shows the calculated average daily sales of the item from the start date until the current date.</td>
+                                                </tr>
+                                                <tr>
+                                                    <td class="TableStyle-To_SeeTable-BodyH-Column1-"><b>Redist. Stock</b>
+                                                    </td>
+                                                    <td class="TableStyle-To_SeeTable-BodyG-Column1-">This field shows the total redistributable quantity of the item across all stores.</td>
+                                                </tr>
+                                                <tr>
+                                                    <td class="TableStyle-To_SeeTable-BodyB-Column1-"><b>Redist. Demand</b>
+                                                    </td>
+                                                    <td class="TableStyle-To_SeeTable-BodyA-Column1-">This field shows the total demand quantity of the item across all stores.</td>
+                                                </tr>
+                                            </tbody>
+                                        </table>
+                                        <h2><a name="See"></a>See also</h2>
+                                        <p><a href="../Store Stock Redistribution.htm" class="MCXref xref">Store Stock Redistribution </a>
+                                        </p>
+                                        <p><a href="Redist. Calculation Types.htm" class="MCXref xref">Redistribution Calculation Types</a>
+                                        </p>
+                                        <p>&#160;</p>
+                                        <p>&#160;</p>
+                                    </div>
+                                    <div id="footer" class="ls-nav-footer">
+                                        <hr width="100%" size="0" align="center" />
+                                        <p>© <span class="VariablesCurrentYear">2021</span> LS Retail ehf. All rights reserved.  </p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div><a data-close="true"></a>
+                </div>
+            </div>
+        </div>
+    </body>
+</html>

@@ -1,0 +1,331 @@
+<!DOCTYPE html>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" lang="en-us" xml:lang="en-us" class="_Skins_HTML5___Side_Navigation" data-mc-search-type="Stem" data-mc-help-system-file-name="Default.xml" data-mc-path-to-help-system="../../../../" data-mc-has-content-body="True" data-mc-target-type="WebHelp2" data-mc-runtime-file-type="Topic;Default" data-mc-preload-images="false" data-mc-in-preview-mode="false" data-mc-toc-path="Retail|Replenishment|[%=System.LinkedTitle%]|[%=System.LinkedTitle%]">
+    <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <meta charset="utf-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+        <meta name="msapplication-config" content="../../../../Skins/Favicons/browserconfig.xml" />
+        <link rel="apple-touch-icon" sizes="180x180" href="../../../../Skins/Favicons/apple-touch-icon.png" />
+        <link rel="shortcut icon" href="../../../../Skins/Favicons/favicon-32x32.png" />
+        <link rel="icon" sizes="96x96" href="../../../../Skins/Favicons/favicon-96x96.png" />
+        <link rel="icon" sizes="32x32" href="../../../../Skins/Favicons/favicon-32x32.png" />
+        <link rel="icon" sizes="16x16" href="../../../../Skins/Favicons/favicon-16x16.png" /><title>How to: Perform Open-to-Buy Checks on Allocation Plans
+	</title>
+        <link rel="shortcut icon" href="/Content/Resources/Images/favicon.ico" />
+        <link href="../../../../Skins/Default/Stylesheets/Slideshow.css" rel="stylesheet" />
+        <link href="../../../../Skins/Default/Stylesheets/TextEffects.css" rel="stylesheet" />
+        <link href="../../../../Skins/Default/Stylesheets/Topic.css" rel="stylesheet" />
+        <link href="../../../../Skins/Default/Stylesheets/Components/Styles.css" rel="stylesheet" />
+        <link href="../../../../Skins/Default/Stylesheets/Components/Tablet.css" rel="stylesheet" />
+        <link href="../../../../Skins/Default/Stylesheets/Components/Mobile.css" rel="stylesheet" />
+        <link href="../../../../Skins/Fluid/Stylesheets/foundation.6.2.3.css" rel="stylesheet" />
+        <link href="../../../../Skins/Fluid/Stylesheets/Styles.css" rel="stylesheet" />
+        <link href="../../../../Skins/Fluid/Stylesheets/Tablet.css" rel="stylesheet" />
+        <link href="../../../../Skins/Fluid/Stylesheets/Mobile.css" rel="stylesheet" />
+        <link href="../../../Resources/Stylesheets/LSNav.css" rel="stylesheet" />
+        <link href="../../../Resources/Table Styles/To_SeeTable.css" rel="stylesheet" />
+        <script src="../../../../Resources/Scripts/jquery.min.js">
+        </script>
+        <script src="../../../../Resources/Scripts/require.min.js" defer="defer">
+        </script>
+        <script src="../../../../Resources/Scripts/require.config.js" defer="defer">
+        </script>
+        <script src="../../../../Resources/Scripts/foundation.6.2.3_custom.js" defer="defer">
+        </script>
+        <script src="../../../../Resources/Scripts/plugins.min.js" defer="defer">
+        </script>
+        <script src="../../../../Resources/Scripts/MadCapAll.js" defer="defer">
+        </script>
+        <script src="../../../Resources/Javascripts/Scroll-Button.js" defer="defer">
+        </script>
+    </head>
+    <body>
+        <div class="foundation-wrap off-canvas-wrapper">
+            <div class="off-canvas-wrapper-inner" data-off-canvas-wrapper="">
+                <aside class="off-canvas position-right" role="navigation" id="offCanvas" data-off-canvas="" data-position="right" data-mc-ignore="true">
+                    <ul class="off-canvas-accordion vertical menu off-canvas-list" data-accordion-menu="" data-mc-back-link="Back" data-mc-css-tree-node-expanded="is-accordion-submenu-parent" data-mc-css-tree-node-collapsed="is-accordion-submenu-parent" data-mc-css-sub-menu="vertical menu is-accordion-submenu nested" data-mc-include-indicator="False" data-mc-include-icon="False" data-mc-include-parent-link="True" data-mc-include-back="False" data-mc-defer-expand-event="True" data-mc-expand-event="click.zf.accordionMenu" data-mc-toc="True">
+                    </ul>
+                </aside>
+                <div class="off-canvas-content inner-wrap" data-off-canvas-content="">
+                    <div data-sticky-container="" class="title-bar-container">
+                        <nav class="title-bar tab-bar sticky" data-sticky="" data-options="marginTop:0" style="width:100%" data-sticky-on="only screen and (max-width: 1279px)" data-mc-ignore="true"><a class="skip-to-content fluid-skip showOnFocus" href="#">Skip To Main Content</a>
+                            <div class="middle title-bar-section outer-row clearfix">
+                                <div class="menu-icon-container relative clearfix">
+                                    <div class="central-dropdown" style="display:none;" id="#centralSmallScreen"><a class="central-account-drop"><span class="central-account-image"></span><span class="central-account-text">Account</span></a>
+                                        <div class="central-dropdown-content"><a class="MCCentralLink central-dropdown-content-settings">Settings</a>
+                                            <hr class="central-separator" /><a class="MCCentralLink central-dropdown-content-logout">Logout</a>
+                                        </div>
+                                    </div>
+                                    <button class="menu-icon" aria-label="Show Navigation Panel" data-toggle="offCanvas"><span></span>
+                                    </button>
+                                </div>
+                            </div>
+                            <div class="title-bar-layout outer-row">
+                                <div class="logo-wrapper"><a class="logo" href="../../../home.html" title="LS Central Help" alt="Logo"></a>
+                                </div>
+                                <div class="navigation-wrapper nocontent">
+                                    <ul class="navigation clearfix" data-mc-css-tree-node-has-children="has-children" data-mc-css-sub-menu="sub-menu" data-mc-expand-event="mouseenter" data-mc-top-nav-menu="True" data-mc-max-depth="3" data-mc-include-icon="False" data-mc-include-indicator="False" data-mc-include-children="True" data-mc-include-siblings="True" data-mc-include-parent="True" data-mc-toc="True">
+                                        <li class="placeholder" style="visibility:hidden"><a>placeholder</a>
+                                        </li>
+                                    </ul>
+                                    <div class="central-dropdown" style="display:none;" id="#centralTop"><a class="central-account-drop"><span class="central-account-image"></span><span class="central-account-text">Account</span></a>
+                                        <div class="central-dropdown-content"><a class="MCCentralLink central-dropdown-content-settings">Settings</a>
+                                            <hr class="central-separator" /><a class="MCCentralLink central-dropdown-content-logout">Logout</a>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="nav-search-wrapper">
+                                    <div class="nav-search row">
+                                        <form class="search" action="#">
+                                            <div class="search-bar search-bar-container needs-pie">
+                                                <input class="search-field needs-pie" type="search" aria-label="Search Field" placeholder="Search" />
+                                                <div class="search-filter-wrapper"><span class="invisible-label" id="search-filters-label">Filter: </span>
+                                                    <div class="search-filter" aria-haspopup="true" aria-controls="sf-content" aria-expanded="false" aria-label="Search Filter" title="All Files" role="button" tabindex="0">
+                                                    </div>
+                                                    <div class="search-filter-content" id="sf-content">
+                                                        <ul>
+                                                            <li>
+                                                                <button class="mc-dropdown-item" aria-labelledby="search-filters-label filterSelectorLabel-00001"><span id="filterSelectorLabel-00001">All Files</span>
+                                                                </button>
+                                                            </li>
+                                                        </ul>
+                                                    </div>
+                                                </div>
+                                                <div class="search-submit-wrapper" dir="ltr">
+                                                    <div class="search-submit" title="Search" role="button" tabindex="0"><span class="invisible-label">Submit Search</span>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </form>
+                                    </div>
+                                    <div class="central-dropdown" style="display:none;"><a class="central-account-drop"><span class="central-account-image"></span><span class="central-account-text">Account</span></a>
+                                        <div class="central-dropdown-content"><a class="MCCentralLink central-dropdown-content-settings">Settings</a>
+                                            <hr class="central-separator" /><a class="MCCentralLink central-dropdown-content-logout">Logout</a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </nav>
+                    </div>
+                    <div class="main-section">
+                        <div class="row outer-row sidenav-layout">
+                            <nav class="sidenav-wrapper">
+                                <div class="sidenav-container">
+                                    <ul class="off-canvas-accordion vertical menu sidenav" data-accordion-menu="" data-mc-css-tree-node-expanded="is-accordion-submenu-parent" data-mc-css-tree-node-collapsed="is-accordion-submenu-parent" data-mc-css-sub-menu="vertical menu accordion-menu is-accordion-submenu nested" data-mc-include-indicator="False" data-mc-include-icon="False" data-mc-include-parent-link="False" data-mc-include-back="False" data-mc-defer-expand-event="True" data-mc-expand-event="click.zf.accordionMenu" data-mc-toc="True" data-mc-side-nav-menu="True">
+                                    </ul>
+                                </div>
+                            </nav>
+                            <div class="body-container">
+                                <div data-mc-content-body="True">
+                                    <MadCap:conditionalText data-mc-conditions="Default.GoogleAnalytics">
+                                        <script>/* <![CDATA[ */
+				(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+				(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+				m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+				})(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+			
+				ga('create', 'UA-58791693-4', 'auto');
+			
+				var file = document.location.href; 
+				file = file.substring(0, (file.indexOf("#") == -1) ? file.length : file.indexOf("#"));
+				file = file.substring(0, (file.indexOf("?") == -1) ? file.length : file.indexOf("?"));
+				file = file.substring(file.lastIndexOf("/") + 1, file.length);
+ 
+				if (file === 'Search.htm') 
+				{
+					var newPath = document.location.pathname + document.location.search + document.location.hash;
+					newPath = newPath.replace(/#/, '?');
+					newPath = newPath.replace(/search\-/, 'q=');
+					ga('set', 'page', newPath);
+				
+					function locationHashChanged()
+					{
+						newPath = document.location.pathname + document.location.search + document.location.hash;
+						newPath = newPath.replace(/#/, '?');
+						newPath = newPath.replace(/search\-/, 'q=');
+						ga('set', 'page', newPath);
+						ga('send', 'pageview');
+					}
+				
+					if(window.HashChangeEvent)
+					{
+						window.onhashchange = locationHashChanged;
+					}
+				}
+				ga('send', 'pageview');
+			/* ]]> */</script>
+                                    </MadCap:conditionalText>
+                                    <div class="nocontent">
+                                        <div class="MCBreadcrumbsBox_0 breadcrumbs" role="navigation" aria-label="Breadcrumbs" data-mc-breadcrumbs-divider=" &gt; " data-mc-breadcrumbs-count="3" data-mc-toc="True"><span class="MCBreadcrumbsPrefix">You are here: </span>
+                                        </div>
+                                    </div>
+                                    <p>&#160;</p>
+                                    <div role="main" id="mc-main-content">
+                                        <h1><a name="aanchor3706"></a>
+                                            <MadCap:concept term="Retail" />How to: Perform Open-to-Buy Checks on Allocation Plans
+	</h1>
+                                        <p>The <b>Open-to-Buy Check</b> is a tool that enables the Sales Budget and its Open-to-Buy values to act as an upper limit for related item purchases. It can be used in an Allocation Plan to check and update its Open-to-Buy status. This check indicates if purchase orders can be created from the Allocation Plan without exceeding the <b>Open-to-Buy</b> values of the related sales budgets.</p>
+                                        <p class="shortcut"><a href="#Setup" class="MCXref xref">To set up the default Open-to-Buy Checks in Replenishment Setup</a>
+                                        </p>
+                                        <p class="shortcut"><a href="#Budget" class="MCXref xref">To set up the Open-to-Buy Checks in a Retail Sales Budget</a>
+                                        </p>
+                                        <p class="shortcut"><a href="#Perform" class="MCXref xref">To perform Open-to-Buy Checks on an Allocation Plan</a>
+                                        </p>
+                                        <p class="shortcut"><a href="#Example" class="MCXref xref">Example of Open-to-Buy Check at Budget Level</a>
+                                        </p>
+                                        <p class="shortcut"><a href="#ExampleLevel" class="MCXref xref">Example of an Open-to-Buy Check at Budget Details Level</a>
+                                        </p>
+                                        <p class="shortcut"><a href="#See" class="MCXref xref">See also</a>
+                                        </p>
+                                        <p>In case of violations, the details of the violations will be prompted, allowing you to make a well-informed decision before proceeding to create the Purchase Order.</p>
+                                        <h2><a name="Setup"></a>To set up the default Open-to-Buy Checks in Replenishment Setup</h2>
+                                        <ol>
+                                            <li value="1">Click the <img src="../../../Resources/Images/Templates/search_icon_15x14.png" style="width: 15;height: 14;" /> icon, enter <b>Replen. Setup</b>, and select the relevant link.</li>
+                                            <li value="2">In the <b>Open-to-Buy</b> FastTab, select or clear the <b>Check Allocation Plan</b> check box to activate or deactivate the <b>Open-to-Buy</b> checks on the Allocation Plan:</li>
+                                            <p><b>Note:</b> This setting only acts as the default value that is passed into a newly created Retail Sales Budget. The setting in the <b>Retail Sales Budget</b> is the switch to control the <b>Open-to-Buy</b> checks on the Allocation Plan.</p>
+                                        </ol>
+                                        <h2><a name="Budget"></a>To set up the Open-to-Buy Checks in a Retail Sales Budget</h2>
+                                        <ol>
+                                            <li value="1">Click the <img src="../../../Resources/Images/Templates/search_icon_15x14.png" style="width: 15;height: 14;" /> icon, enter <b>Retail Sales Budget List</b>, and select the relevant link.</li>
+                                            <li value="2">Select a sales budget to set up the Open-to-Buy Check for, and click <b>Manage </b>- <b>Edit</b>. <b>Note:</b> The Open-to-Buy Check only works for a sales budget with a valid <b>OTB View Code</b>.</li>
+                                            <li value="3">In the <b>Open-to-Buy</b> FastTab, fill in the following fields in the <b>Checks (Allocation Plan)</b> section:</li>
+                                        </ol>
+                                        <table style="width: 100%;mc-table-style: url('../../../Resources/Table Styles/To_SeeTable.css');" class="TableStyle-To_SeeTable" cellspacing="1">
+                                            <col class="TableStyle-To_SeeTable-Column-Column1" style="width: 330px;" />
+                                            <col class="TableStyle-To_SeeTable-Column-Column1" />
+                                            <tbody>
+                                                <tr>
+                                                    <th class="TableStyle-To_SeeTable-BodyH-Column1-">Field</th>
+                                                    <th class="TableStyle-To_SeeTable-BodyG-Column1-">Description</th>
+                                                </tr>
+                                                <tr>
+                                                    <td class="TableStyle-To_SeeTable-BodyH-Column1-"><b>Check Allocation Plan</b>
+                                                    </td>
+                                                    <td class="TableStyle-To_SeeTable-BodyG-Column1-">Specifies if the Allocation Plan is checked against the Open-to-Buy value for this budget.</td>
+                                                </tr>
+                                                <tr>
+                                                    <td class="TableStyle-To_SeeTable-BodyH-Column1-"><b>Check Alloc. Plan Level</b>
+                                                    </td>
+                                                    <td class="TableStyle-To_SeeTable-BodyG-Column1-">Specifies on which level the Open-to-Buy check is performed. This can be <i>Budget</i> level or <i>Budget Details</i> level.</td>
+                                                </tr>
+                                                <tr>
+                                                    <td class="TableStyle-To_SeeTable-BodyH-Column1-"><b>Check Alloc. Plan (Ignore Zero Budget Lines)</b>
+                                                    </td>
+                                                    <td class="TableStyle-To_SeeTable-BodyG-Column1-">Specifies if the Open-to-Buy check at the Allocation Plan level should be ignored or capped at zero, when there is no value defined in the Sales Budget for a specific Division, Item Category, Retail Product Group, or Item.
+</td>
+                                                </tr>
+                                                <tr>
+                                                    <td class="TableStyle-To_SeeTable-BodyH-Column1-"><b>Check Alloc. Plan (Curr. Period)</b>
+                                                    </td>
+                                                    <td class="TableStyle-To_SeeTable-BodyG-Column1-">Specifies if the Open-to-Buy check at the Allocation Plan level should be performed for the current period. This will consider Purchases, Committed Purchases, Planned Sales Amount (Cost), Planned Neg. Adjustment, and Planned Discounts. This is the most restrictive method.</td>
+                                                </tr>
+                                                <tr>
+                                                    <td class="TableStyle-To_SeeTable-BodyH-Column1-"><b>Check Alloc. Plan (Until Curr. Period)</b>
+                                                    </td>
+                                                    <td class="TableStyle-To_SeeTable-BodyG-Column1-">Specifies if the Open-to-Buy check at the Allocation Plan level should be performed for the periods until the current period. This will consider Purchases, Committed Purchases, Planned Sales Amount (Cost), Planned Neg. Adjustment, Planned Discounts, as well as the  Opening Stock for the current period.</td>
+                                                </tr>
+                                                <tr>
+                                                    <td class="TableStyle-To_SeeTable-BodyB-Column1-"><b>Check Alloc. Plan (Until Last Period)</b>
+                                                    </td>
+                                                    <td class="TableStyle-To_SeeTable-BodyA-Column1-">Specifies if the Open-to-Buy check at the Allocation Plan level should be performed for the last period. This will consider Purchases,  Committed Purchases, Planned Sales Amount&#160;(Cost), Planned Neg. Adjustment, Planned Discounts, as well as the  Opening Stock for the last period. This is the least restrictive method.</td>
+                                                </tr>
+                                            </tbody>
+                                        </table>
+                                        <h2><a name="Perform"></a>To perform Open-to-Buy Checks on an Allocation Plan</h2>
+                                        <ol>
+                                            <li value="1">Click the <img src="../../../Resources/Images/Templates/search_icon_15x14.png" style="width: 15;height: 14;" /> icon, enter <b>Allocation Plan List</b>, and select the relevant link.</li>
+                                            <li value="2">Open an existing Allocation Plan that is ready for Purchase Order Creation.</li>
+                                            <li value="3">Fill in the <b>Open-To-Buy Date</b> field. This date will be used to perform an Open-to-Buy check on this Allocation Plan. This will also flow into the <b>Open-to-Buy Date</b> for the purchase order upon document creation from this Allocation Plan. </li>
+                                            <li value="4">Click the <b>Check Open-to-Buy</b> action.</li>
+                                            <li value="5">If there is a retail sales budget with an activated Open-to-Buy check for an allocation plan, the system calculates how many purchase orders will be generated from this allocation plan and the values for each of these purchase orders.</li>
+                                            <li value="6">
+                Based on the active check setting at the related sales budget level, the system then looks for the relevant upper limit values for the <i>current period</i>, <i>until current period</i>, and <i>until last period</i> from the calculated Open-to-Buy values.</li>
+                                            <li value="7">Next, the system compares each of the purchase order values against the calculated upper limit values. If the purchase order value exceeds the upper limit, the check fails. For an allocation plan to pass the Open-to-Buy check, it must pass ALL active checks for all purchase orders to be created.</li>
+                                            <li value="8">The fields <b>Last Open-to-Buy Checked</b> and <b>Last Open-to-Buy Check Status</b> are updated with the current time and the check result. </li>
+                                            <li value="9">If the Open-to-Buy check is successful, the system notifies with a message. If the check fails, the system redirects to the <b>Open-to-Buy Log</b> page:</li>
+                                        </ol>
+                                        <p><b>Note:</b> In order to keep the Open-to-Buy meaningful it is important to ensure that the budgets and Open-to-Buy values are updated. The Open-to-Buy can be updated manually or periodically with a Scheduler Job. For more information see <a href="How-To-Schedule-The-Calculation-Of-OTB.htm" class="MCXref xref">How to: Schedule the Calculation of Open-to-Buy</a>.</p>
+                                        <h2><a name="Example"></a>Example of Open-to-Buy Check at Budget Level</h2>
+                                        <p>You have a sales budget <i>ITEMCAT</i> with <b>Budget Type</b> <i>Item Category</i>, <b>Check Allocation Plan</b> set to <i>TRUE</i>, and <b>Check Alloc. Plan Level</b> set to <i>Budget</i>.</p>
+                                        <p>You have an allocation plan which will generate the following Purchase Order document upon document creation:</p>
+                                        <p>
+                                            <img src="../../../Resources/Images/LS Retail/Replenishment/Open-to-Buy/OpenToBuyCheck_AllocationPlan_BudgetLevel_PO_Example_450x65.png" style="width: 450;height: 65;" />
+                                        </p>
+                                        <p>The Open-to-Buy calculation for the sales budget <i>ITEMCAT</i> generates the following values:</p>
+                                        <p>
+                                            <img src="../../../Resources/Images/LS Retail/Replenishment/Open-to-Buy/OpenToBuyCheck_AllocationPlan_BudgetLevel_Example_750x135.png" style="width: 750;height: 135;" />
+                                        </p>
+                                        <p>For the budget level check, the system sums up the purchase order amount for all related lines. Therefore, the checked Purchase Order Value will be 350 + 200 = <i>550</i>.</p>
+                                        <p>The <b>Open-to-Buy Date</b> is <i>15-02-2019</i>, and therefore the current period is Feb-2019. The last period is Dec-19.</p>
+                                        <p>If the <b>Check Alloc. Plan (Curr. Period)</b> for <i>ITEMCAT</i> is set to <i>TRUE</i>, the system will look for the Current Period Value using the following formula:</p>
+                                        <blockquote>Sales Budget Amount (Cost)
+				<br />+ Negative Adjustment (Planned)
+				<br />+ Discounts (Planned)
+				<br />- Purchases
+				<br />- Purchases (Committed)
+				<br />-------------------------------------------------
+			<br />= Current Period Value</blockquote>
+                                        <p>Therefore, the Current Period Value for the check is 700 + 40 + 90 - 40 - 105 = <i>685</i>. The Purchase Order Value is less than the Current Period Value. <br />Thus, this order will PASS the check for the Current Period.</p>
+                                        <p>If the <b>Check Alloc. Plan (Until Curr. Period)</b> for <i>ITEMCAT</i> is set to <i>TRUE</i>, the system will look for the Value Until Current Period, which is the Open-to-Buy value for the current period, in this case, <i>-790</i>. The Purchase Order Value exceeds the Value Until Current Period. <br />Thus, this order will FAIL the check for Until Current Period.</p>
+                                        <p>If the <b>Check Alloc. Plan (Until Last Period)</b> for <i>ITEMCAT</i> is set to <i>TRUE</i>, the system will look for the Value Until Last Period, which is the Open-to-Buy value for the last period, in this case, <i>7142</i>. The Purchase Order Value is less than the Value Until Last Period. <br />Thus, this order will PASS the check for Until Current Period.</p>
+                                        <p>For an Allocation Plan to pass the Open-to-Buy check, it must pass ALL the active checks for all purchase orders to be created. <br />Thus, in this example, the Allocation Plan will FAIL the Open-to-Buy check as long as the <b>Check Alloc. Plan (Until Curr. Period)</b> is activated.</p>
+                                        <h2><a name="ExampleLevel"></a>Example of an Open-to-Buy Check at Budget Details Level</h2>
+                                        <p>You have a sales budget <i>ITEMCAT</i> with <b>Budget Type</b> <i>Item Category</i>, <b>Check Allocation Plan</b> set to <i>TRUE</i>, and <b>Check Alloc. Plan Level</b> set to <i>Budget Details</i>. Also, the <b>Check Alloc. Plan (Until Curr. Period)</b> for <i>ITEMCAT</i> is set to <i>TRUE</i>.</p>
+                                        <p>You have an allocation plan which will generate the following two Purchase Order documents upon the document creation:</p>
+                                        <p>
+                                            <img src="../../../Resources/Images/LS Retail/Replenishment/Open-to-Buy/OpenToBuyCheck_AllocationPlan_BudgetDetailsLevel_PO_Example_450x173.png" style="width: 450;height: 173;" />
+                                        </p>
+                                        <p>The Open-to-Buy calculation for the sales budget <i>ITEMCAT</i> generates the following values at the details level:</p>
+                                        <p>
+                                            <img src="../../../Resources/Images/LS Retail/Replenishment/Open-to-Buy/OpenToBuyCheck_AllocationPlan_BudgetDetailsLevel_Example_750x415.png" style="width: 750;height: 415;" />
+                                        </p>
+                                        <p>For the budget details level check, the system sums up the purchase order amount grouped by the sales budget type, in this case, <i>Item Category</i>.</p>
+                                        <p>Hence, for the Purchase Order <i>001</i>, the Purchase Order Value for <i>DAIRY</i> will be 250 + 275 = <i>525</i>.</p>
+                                        <p>In the case of Purchase Order <i>002</i>, the Purchase Order Values for <i>BEVERAGES</i> will be 30 + 40 = <i>70</i>. In the case of item category <i>STATIONARY</i>, the category has no sales budget values defined and the <b>Check Alloc. Plan (Ignore Zero Budget Lines)</b> setting for <i>ITEMCAT</i> is <i>TRUE</i>. Therefore, the Open-to-Buy checks for this item category will be skipped.</p>
+                                        <p>The <b>Open-to-Buy Date</b> is <i>15-02-2019</i>, and therefore the current period is Feb-2019. The last period is Dec-19.</p>
+                                        <p>If the <b>Check Alloc. Plan (Curr. Period)</b> for <i>ITEMCAT</i> is set to <i>TRUE</i>, the system will look for the Current Period Value using the following formula:</p>
+                                        <blockquote>Sales Budget Amount (Cost)
+				<br />+ Negative Adjustment (Planned)
+				<br />+ Discounts (Planned)
+				<br />- Purchases
+				<br />- Purchases (Committed)
+				<br />-------------------------------------------------
+			<br />= Current Period Value</blockquote>
+                                        <ul>
+                                            <li value="1">For Purchase Order <i>001</i> and item category <i>DAIRY</i>, the Current Period Value is 300 + 20 + 50 - 15 - 50 = <i>305</i>. The Purchase Order Value for <i>DAIRY</i> exceeds Current Period Value. <br />Thus, this order will FAIL the check for the current period.</li>
+                                            <li value="2">For Purchase Order <i>002</i> and item category <i>BEVERAGES</i>, the Current Period Value is 400 + 20 + 40 - 10 - 5 = <i>445</i>. The Purchase Order Value for <i>BEVERAGES</i> is less than Current Period Value. <br />Thus, this order will PASS for the current period.</li>
+                                        </ul>
+                                        <p>If the <b>Check Alloc. Plan (Until Curr. Period)</b> for <i>ITEMCAT</i> is set to <i>TRUE</i>, the system will look for the Value Until Current Period, which is the Open-to-Buy value for the current period.</p>
+                                        <ul>
+                                            <li value="1"> For Purchase Order <i>001</i> and item category <i>DAIRY</i>, the Value Until Current Period is <i>-115</i>. The Purchase Order Value exceeds the Value Until Current Period. <br />Thus, this order will FAIL the check for Until Current Period.</li>
+                                            <li value="2">For Purchase Order <i>002</i> and item category <i>BEVERAGES</i>, the Value Until Current Period is <i>90</i>. The Purchase Order Value is less than the Value Until Current Period. <br />Thus, this order will PASS the check for Until Current Period.</li>
+                                        </ul>
+                                        <p>If the <b>Check Alloc. Plan (Until Last Period)</b> for <i>ITEMCAT</i> is set to <i>TRUE</i>, the system will look for the Value Until Last Period, which is the Open-to-Buy value for the last period.</p>
+                                        <ul>
+                                            <li value="1"> For Purchase Order <i>001</i> and item category <i>DAIRY</i>, the Value Until Last Period is <i>3348</i>. The Purchase Order Value is less than the Value Until Last Period. <br />Thus, this order will PASS the check for Until Last Period.</li>
+                                            <li value="2"> For Purchase Order <i>002</i> and item category <i>BEVERAGES</i>, the Value Until Last Period is <i>4559</i>. The Purchase Order Value is less than the Value Until Last Period. <br />Thus, this order will PASS the check for Until Last Period.</li>
+                                        </ul>
+                                        <p>For an Allocation Plan to pass the Open-to-Buy check, it must pass ALL the active checks for all purchase orders to be created.<br />Thus, in this example, even though the order <i>002</i> passes all active checks, the allocation plan will FAIL the Open-to-Buy check as long as the order <i>001</i> fails any one of the active checks.</p>
+                                        <h2><a name="See"></a>See also</h2>
+                                        <p><a href="Open-to-Buy.htm" class="MCXref xref">Open-to-Buy</a>
+                                        </p>
+                                        <p><a href="How-To-Perform-OTB-Checks-On-Purchase-Order.htm" class="MCXref xref">How to: Perform Open-to-Buy Checks on Purchase Orders
+	</a>
+                                        </p>
+                                        <p>&#160;</p>
+                                        <p>&#160;</p>
+                                    </div>
+                                    <div id="footer" class="ls-nav-footer">
+                                        <hr width="100%" size="0" align="center" />
+                                        <p>© <span class="VariablesCurrentYear">2021</span> LS Retail ehf. All rights reserved.  </p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div><a data-close="true"></a>
+                </div>
+            </div>
+        </div>
+    </body>
+</html>

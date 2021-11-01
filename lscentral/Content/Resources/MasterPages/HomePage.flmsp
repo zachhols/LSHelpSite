@@ -1,0 +1,37 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd">
+    <head>
+        <script type="text/javascript" defer="defer" src="../Javascripts/Scroll-Button.js">
+        </script>
+        <style>
+			#link { color: #FFFFFF; } /* CSS link color */
+		</style>
+        <link href="../Stylesheets/Styles.css" rel="stylesheet" type="text/css" />
+    </head>
+    <body>
+        <MadCap:bodyProxy />
+        <div class="home-footer">
+            <table style="width: 100%;border-left-style: none;border-left-width: 0px;border-left-color: ;border-right-style: none;border-right-width: 0px;border-right-color: ;border-top-style: none;border-top-width: 0px;border-top-color: ;border-bottom-style: none;border-bottom-width: 0px;border-bottom-color: ;margin-left: 0;margin-right: auto;">
+                <col />
+                <col style="width: -158px;" />
+                <tbody>
+                    <tr>
+                        <td>
+                            <style>
+								#link { color: #FFFFFF; } /* CSS link color */
+							</style>
+                            <p class="footer"><a id="link" href="mailto:info@lsretail.com">info@lsretail.com</a>
+                            </p>
+                            <p class="footer">+354 414 5700</p>
+                            <p class="footer">Hagasmári 3</p>
+                            <p class="footer">201 Kópavogur, Iceland</p>
+                        </td>
+                        <td style="text-align: right;">
+                            <img src="../Images/Logos/LS Retail Logo Side White_229.png" />
+                        </td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+    </body>
+</html>

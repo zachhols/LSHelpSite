@@ -1,0 +1,452 @@
+<!DOCTYPE html>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" lang="en-us" xml:lang="en-us" class="_Skins_HTML5___Side_Navigation" data-mc-search-type="Stem" data-mc-help-system-file-name="Default.xml" data-mc-path-to-help-system="../../../../" data-mc-has-content-body="True" data-mc-target-type="WebHelp2" data-mc-runtime-file-type="Topic;Default" data-mc-preload-images="false" data-mc-in-preview-mode="false" data-mc-toc-path="Retail|Point of Sale|Design|Interface">
+    <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <meta charset="utf-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+        <meta name="msapplication-config" content="../../../../Skins/Favicons/browserconfig.xml" />
+        <link rel="apple-touch-icon" sizes="180x180" href="../../../../Skins/Favicons/apple-touch-icon.png" />
+        <link rel="shortcut icon" href="../../../../Skins/Favicons/favicon-32x32.png" />
+        <link rel="icon" sizes="96x96" href="../../../../Skins/Favicons/favicon-96x96.png" />
+        <link rel="icon" sizes="32x32" href="../../../../Skins/Favicons/favicon-32x32.png" />
+        <link rel="icon" sizes="16x16" href="../../../../Skins/Favicons/favicon-16x16.png" /><title>Setting Up Design Mode for the POS</title>
+        <link rel="shortcut icon" href="/Content/Resources/Images/favicon.ico" />
+        <link href="../../../../Skins/Default/Stylesheets/Slideshow.css" rel="stylesheet" />
+        <link href="../../../../Skins/Default/Stylesheets/TextEffects.css" rel="stylesheet" />
+        <link href="../../../../Skins/Default/Stylesheets/Topic.css" rel="stylesheet" />
+        <link href="../../../../Skins/Default/Stylesheets/Components/Styles.css" rel="stylesheet" />
+        <link href="../../../../Skins/Default/Stylesheets/Components/Tablet.css" rel="stylesheet" />
+        <link href="../../../../Skins/Default/Stylesheets/Components/Mobile.css" rel="stylesheet" />
+        <link href="../../../../Skins/Fluid/Stylesheets/foundation.6.2.3.css" rel="stylesheet" />
+        <link href="../../../../Skins/Fluid/Stylesheets/Styles.css" rel="stylesheet" />
+        <link href="../../../../Skins/Fluid/Stylesheets/Tablet.css" rel="stylesheet" />
+        <link href="../../../../Skins/Fluid/Stylesheets/Mobile.css" rel="stylesheet" />
+        <link href="../../../Resources/Stylesheets/LSNav.css" rel="stylesheet" />
+        <link href="../../../Resources/Table Styles/To_SeeTable.css" rel="stylesheet" />
+        <script src="../../../../Resources/Scripts/jquery.min.js">
+        </script>
+        <script src="../../../../Resources/Scripts/require.min.js" defer="defer">
+        </script>
+        <script src="../../../../Resources/Scripts/require.config.js" defer="defer">
+        </script>
+        <script src="../../../../Resources/Scripts/foundation.6.2.3_custom.js" defer="defer">
+        </script>
+        <script src="../../../../Resources/Scripts/plugins.min.js" defer="defer">
+        </script>
+        <script src="../../../../Resources/Scripts/MadCapAll.js" defer="defer">
+        </script>
+        <script src="../../../Resources/Javascripts/Scroll-Button.js" defer="defer">
+        </script>
+    </head>
+    <body>
+        <div class="foundation-wrap off-canvas-wrapper">
+            <div class="off-canvas-wrapper-inner" data-off-canvas-wrapper="">
+                <aside class="off-canvas position-right" role="navigation" id="offCanvas" data-off-canvas="" data-position="right" data-mc-ignore="true">
+                    <ul class="off-canvas-accordion vertical menu off-canvas-list" data-accordion-menu="" data-mc-back-link="Back" data-mc-css-tree-node-expanded="is-accordion-submenu-parent" data-mc-css-tree-node-collapsed="is-accordion-submenu-parent" data-mc-css-sub-menu="vertical menu is-accordion-submenu nested" data-mc-include-indicator="False" data-mc-include-icon="False" data-mc-include-parent-link="True" data-mc-include-back="False" data-mc-defer-expand-event="True" data-mc-expand-event="click.zf.accordionMenu" data-mc-toc="True">
+                    </ul>
+                </aside>
+                <div class="off-canvas-content inner-wrap" data-off-canvas-content="">
+                    <div data-sticky-container="" class="title-bar-container">
+                        <nav class="title-bar tab-bar sticky" data-sticky="" data-options="marginTop:0" style="width:100%" data-sticky-on="only screen and (max-width: 1279px)" data-mc-ignore="true"><a class="skip-to-content fluid-skip showOnFocus" href="#">Skip To Main Content</a>
+                            <div class="middle title-bar-section outer-row clearfix">
+                                <div class="menu-icon-container relative clearfix">
+                                    <div class="central-dropdown" style="display:none;" id="#centralSmallScreen"><a class="central-account-drop"><span class="central-account-image"></span><span class="central-account-text">Account</span></a>
+                                        <div class="central-dropdown-content"><a class="MCCentralLink central-dropdown-content-settings">Settings</a>
+                                            <hr class="central-separator" /><a class="MCCentralLink central-dropdown-content-logout">Logout</a>
+                                        </div>
+                                    </div>
+                                    <button class="menu-icon" aria-label="Show Navigation Panel" data-toggle="offCanvas"><span></span>
+                                    </button>
+                                </div>
+                            </div>
+                            <div class="title-bar-layout outer-row">
+                                <div class="logo-wrapper"><a class="logo" href="../../../home.html" title="LS Central Help" alt="Logo"></a>
+                                </div>
+                                <div class="navigation-wrapper nocontent">
+                                    <ul class="navigation clearfix" data-mc-css-tree-node-has-children="has-children" data-mc-css-sub-menu="sub-menu" data-mc-expand-event="mouseenter" data-mc-top-nav-menu="True" data-mc-max-depth="3" data-mc-include-icon="False" data-mc-include-indicator="False" data-mc-include-children="True" data-mc-include-siblings="True" data-mc-include-parent="True" data-mc-toc="True">
+                                        <li class="placeholder" style="visibility:hidden"><a>placeholder</a>
+                                        </li>
+                                    </ul>
+                                    <div class="central-dropdown" style="display:none;" id="#centralTop"><a class="central-account-drop"><span class="central-account-image"></span><span class="central-account-text">Account</span></a>
+                                        <div class="central-dropdown-content"><a class="MCCentralLink central-dropdown-content-settings">Settings</a>
+                                            <hr class="central-separator" /><a class="MCCentralLink central-dropdown-content-logout">Logout</a>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="nav-search-wrapper">
+                                    <div class="nav-search row">
+                                        <form class="search" action="#">
+                                            <div class="search-bar search-bar-container needs-pie">
+                                                <input class="search-field needs-pie" type="search" aria-label="Search Field" placeholder="Search" />
+                                                <div class="search-filter-wrapper"><span class="invisible-label" id="search-filters-label">Filter: </span>
+                                                    <div class="search-filter" aria-haspopup="true" aria-controls="sf-content" aria-expanded="false" aria-label="Search Filter" title="All Files" role="button" tabindex="0">
+                                                    </div>
+                                                    <div class="search-filter-content" id="sf-content">
+                                                        <ul>
+                                                            <li>
+                                                                <button class="mc-dropdown-item" aria-labelledby="search-filters-label filterSelectorLabel-00001"><span id="filterSelectorLabel-00001">All Files</span>
+                                                                </button>
+                                                            </li>
+                                                        </ul>
+                                                    </div>
+                                                </div>
+                                                <div class="search-submit-wrapper" dir="ltr">
+                                                    <div class="search-submit" title="Search" role="button" tabindex="0"><span class="invisible-label">Submit Search</span>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </form>
+                                    </div>
+                                    <div class="central-dropdown" style="display:none;"><a class="central-account-drop"><span class="central-account-image"></span><span class="central-account-text">Account</span></a>
+                                        <div class="central-dropdown-content"><a class="MCCentralLink central-dropdown-content-settings">Settings</a>
+                                            <hr class="central-separator" /><a class="MCCentralLink central-dropdown-content-logout">Logout</a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </nav>
+                    </div>
+                    <div class="main-section">
+                        <div class="row outer-row sidenav-layout">
+                            <nav class="sidenav-wrapper">
+                                <div class="sidenav-container">
+                                    <ul class="off-canvas-accordion vertical menu sidenav" data-accordion-menu="" data-mc-css-tree-node-expanded="is-accordion-submenu-parent" data-mc-css-tree-node-collapsed="is-accordion-submenu-parent" data-mc-css-sub-menu="vertical menu accordion-menu is-accordion-submenu nested" data-mc-include-indicator="False" data-mc-include-icon="False" data-mc-include-parent-link="False" data-mc-include-back="False" data-mc-defer-expand-event="True" data-mc-expand-event="click.zf.accordionMenu" data-mc-toc="True" data-mc-side-nav-menu="True">
+                                    </ul>
+                                </div>
+                            </nav>
+                            <div class="body-container">
+                                <div data-mc-content-body="True">
+                                    <MadCap:conditionalText data-mc-conditions="Default.GoogleAnalytics">
+                                        <script>/* <![CDATA[ */
+				(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+				(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+				m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+				})(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+			
+				ga('create', 'UA-58791693-4', 'auto');
+			
+				var file = document.location.href; 
+				file = file.substring(0, (file.indexOf("#") == -1) ? file.length : file.indexOf("#"));
+				file = file.substring(0, (file.indexOf("?") == -1) ? file.length : file.indexOf("?"));
+				file = file.substring(file.lastIndexOf("/") + 1, file.length);
+ 
+				if (file === 'Search.htm') 
+				{
+					var newPath = document.location.pathname + document.location.search + document.location.hash;
+					newPath = newPath.replace(/#/, '?');
+					newPath = newPath.replace(/search\-/, 'q=');
+					ga('set', 'page', newPath);
+				
+					function locationHashChanged()
+					{
+						newPath = document.location.pathname + document.location.search + document.location.hash;
+						newPath = newPath.replace(/#/, '?');
+						newPath = newPath.replace(/search\-/, 'q=');
+						ga('set', 'page', newPath);
+						ga('send', 'pageview');
+					}
+				
+					if(window.HashChangeEvent)
+					{
+						window.onhashchange = locationHashChanged;
+					}
+				}
+				ga('send', 'pageview');
+			/* ]]> */</script>
+                                    </MadCap:conditionalText>
+                                    <div class="nocontent">
+                                        <div class="MCBreadcrumbsBox_0 breadcrumbs" role="navigation" aria-label="Breadcrumbs" data-mc-breadcrumbs-divider=" &gt; " data-mc-breadcrumbs-count="3" data-mc-toc="True"><span class="MCBreadcrumbsPrefix">You are here: </span>
+                                        </div>
+                                    </div>
+                                    <p>&#160;</p>
+                                    <div role="main" id="mc-main-content">
+                                        <h1><a name="aanchor2301"></a>
+                                            <MadCap:concept term="Retail" />Setting Up Design Mode for the POS</h1>
+                                        <p>The POS has two modes: <i>Normal mode</i> and <i>Design mode</i>.</p>
+                                        <p class="shortcut"><a href="#Interface" class="MCXref xref">Interface Profile – Context Menus</a>
+                                        </p>
+                                        <p class="shortcut"><a href="#Context" class="MCXref xref">The Context Menus for the Interface Profile Setting</a>
+                                        </p>
+                                        <p class="shortcut"><a href="#POSNormal" class="MCXref xref">POS Normal mode</a>
+                                        </p>
+                                        <p class="shortcut"><a href="#POSDesign" class="MCXref xref">POS Design Mode</a>
+                                        </p>
+                                        <p class="shortcut"><a href="#Examples" class="MCXref xref">Examples of Context Menus</a>
+                                        </p>
+                                        <p class="shortcut"><a href="#POSCmd" class="MCXref xref">POS commands for the Interface Profile Context Menus</a>
+                                        </p>
+                                        <p>With Normal mode it is possible to do some basic changes for the POS, but the Design mode lets the user access all other POS setup data, the controls, and profiles. Most of the changes done directly in the POS this way will take effect immediately, once you go back to Normal mode.</p>
+                                        <p>The active retail user has to be defined as a POS super user for the Design mode to become active.</p>
+                                        <p>
+                                            <img src="../../../Resources/Images/LS Retail/POS/POS Setup/P_10000794_SuperUser_600x172.png" class="images" style="width: 600;height: 172;" />
+                                        </p>
+                                        <p>Being able to design the POS layout in run time is more efficient and convenient when making adjustments or creating new panels.</p>
+                                        <p>This functionality will therefore be used by programmers, partners, or super users who need to make changes in run time.</p>
+                                        <p>In addition to manipulating the controls, you can open all POS profiles as well staff, terminal, and store cards to change design properties in run time, such as style, interface, and hardware profiles.</p>
+                                        <p>The Design mode is a practical tool and lets the POS super user change the POS setup, edit the different controls, profiles, and more data. This has to be done with special care.</p>
+                                        <p><b>Tip:&#160;</b>There is no <b>Undo </b>action available for the Design mode, so take care to save a copy of the different profiles before you start working. It is so easy to change and edit the POS setup in Design mode.</p>
+                                        <h2><a name="Interface"></a>Interface Profile – Context Menus</h2>
+                                        <p> A context menu defines the menu that opens in the POS, when the POS user presses the right button.</p>
+                                        <p>For the Design mode, it is necessary to have context menus. Individual context menus exist for the different interface profile controls. In the POS, the system selects a context menu to open depending on the control the POS user is active in.</p>
+                                        <p>The different interface profile controls that have their own context menus are:</p>
+                                        <ol>
+                                            <li value="1">Panel</li>
+                                            <li value="2"><a href="Interface-Profile-Controls/Button-Pad-Controls.htm">Button Pad</a>
+                                            </li>
+                                            <li value="3"><a href="Interface-Profile-Controls/Data-Grid-Controls.htm">Data Grid</a>
+                                            </li>
+                                            <li value="4"><a href="Interface-Profile-Controls/Input-Controls.htm">Input</a>
+                                            </li>
+                                            <li value="5"><a href="Interface-Profile-Controls/Record-Zoom-Controls.htm">Record Zoom</a>
+                                            </li>
+                                            <li value="6"><a href="Interface-Profile-Controls/Media-Controls.htm">Media</a>
+                                            </li>
+                                            <li value="7"><a href="Interface-Profile-Controls/Browser-Controls.htm">Browser</a>
+                                            </li>
+                                        </ol>
+                                        <p>The context menus consist of POS&#160;commands. Most of the POS commands used in the context menus have in common that they allow the user to edit the data. </p>
+                                        <p>There are commands that allow the user to: </p>
+                                        <ul>
+                                            <li value="1">Edit menu lines</li>
+                                            <li value="2">Edit button properties</li>
+                                            <li value="3">Edit the active Interface Profile and all the other POS profiles</li>
+                                            <li value="4">Edit the settings for the active staff ID</li>
+                                            <li value="5">Edit the Data Table</li>
+                                            <li value="6">Edit the lookup</li>
+                                            <li value="7">Edit the panel, set rows and columns</li>
+                                            <li value="8">Enter and exit design mode.</li>
+                                        </ul>
+                                        <p>The system contains several  POS commands used for Normal and Design mode; these are listed at the end of this topic.</p>
+                                        <h2><a name="Context"></a>The Context Menus for the Interface Profile Setting</h2>
+                                        <p>The person responsible for the POS setup has to set up the context menus that are used in the Interface Profile.</p>
+                                        <p><b>Note:&#160;</b>The Context menus in the <span class="GeneralLSCentral_Mini">LS&#160;Central</span> Demo Data Company are intended as a guideline for how they can be designed. Each configuration can change them manually to suit their requirements.</p>
+                                        <p><b>Note:&#160;</b>The setup data should at least have context menus settings for the <i>##DEFAULT</i> Interface Profile. Other interface profiles look for the data in profile ##DEFAULT when they have no specific settings themselves.</p>
+                                        <h3><b>List of Context Menus in the Demo Data Company</b>
+                                        </h3>
+                                        <p>
+                                            <img src="../../../Resources/Images/LS Retail/POS/POS Setup/P_99008943_ContextMenus_list1_600x318.png" class="images" style="width: 600;height: 318;" />
+                                        </p>
+                                        <p>On the<b> Interface Profile Card</b>, the <b>Context Menus </b> FastTab, you assign context menus to the various interface profile controls.</p>
+                                        <p>
+                                            <img src="../../../Resources/Images/LS Retail/POS/POS Setup/P_99008988_Default_600x429.png" class="images" style="width: 600;height: 429;" />
+                                        </p>
+                                        <p>&#160;</p>
+                                        <table class="TableStyle-To_SeeTable" style="mc-table-style: url('../../../Resources/Table Styles/To_SeeTable.css');" cellspacing="1">
+                                            <col style="width: 198pt;" class="TableStyle-To_SeeTable-Column-Column1" />
+                                            <col style="width: 184pt;" class="TableStyle-To_SeeTable-Column-Column1" />
+                                            <tr>
+                                                <td class="TableStyle-To_SeeTable-BodyH-Column1-">The menus on the left in the <b>Context Menus </b>FastTab are activated in the POS when the POS is in <b>Normal Mode</b>.</td>
+                                                <td class="TableStyle-To_SeeTable-BodyG-Column1-">
+                                                    <p>
+                                                        <img src="../../../Resources/Images/LS Retail/POS/POS Setup/P_99008988_ContextMenus_250x169.png" class="images" style="width: 250;height: 169;" />
+                                                    </p>
+                                                </td>
+                                            </tr>
+                                            <tr>
+                                                <td class="TableStyle-To_SeeTable-BodyH-Column1-">The menus on the right in the <b>Context Menus </b>FastTab are activated in the POS when the POS is in <b>Design Mode</b>.</td>
+                                                <td class="TableStyle-To_SeeTable-BodyG-Column1-">
+                                                    <p>
+                                                        <img src="../../../Resources/Images/LS Retail/POS/POS Setup/P_99008988_ContextMenus01_250x167.png" class="images" style="width: 250;height: 167;" />
+                                                    </p>
+                                                </td>
+                                            </tr>
+                                        </table>
+                                        <h2><a name="POSNormal"></a>POS Normal mode</h2>
+                                        <p>The Normal Mode is a state the super user is in running the POS and with the Design Mode not activated. The super user can open the context menus by right-clicking them. </p>
+                                        <p>The menu that opens is a context menu and depends on:</p>
+                                        <ul>
+                                            <li value="1">The control type the user is active in.</li>
+                                            <li value="2">The Context menu setup in the active Interface Profile, or from the ##DEFAULT Interface profile according to the default concept.</li>
+                                        </ul>
+                                        <p>Each POS User context menu consists of two context menus:</p>
+                                        <ul>
+                                            <li value="1">The context menu for the panel.</li>
+                                            <li value="2">The context menu belonging to the active control.</li>
+                                        </ul>
+                                        <p><b>Note:&#160;</b>The panel context menu always comes on top of the control context menu.</p>
+                                        <p><b>Example:</b> POS user is active over a button pad control.</p>
+                                        <p>When the POS user presses the right button over a menu this menu opens:</p>
+                                        <p>
+                                            <img src="../../../Resources/Images/LS Retail/POS/POS Setup/POS_RightClick_List.png" class="images" />
+                                        </p>
+                                        <ul>
+                                            <li value="1">The first two lines, <b style="font-weight: bold;">Enter Design Mode</b> and <b style="font-weight: bold;">Panel Properties</b> come from the context menu set with the Panel.</li>
+                                            <li value="2">The other lines come from the context menu set with Button Pad.</li>
+                                        </ul>
+                                        <h2><a name="POSDesign"></a>POS Design Mode</h2>
+                                        <p>The Design Mode is a state that a super user can enter in order to manipulate controls and button pad menus on a current panel. When the state is entered, some controls change in appearance showing a watermark saying <span class="span_4">Design Mode</span> for indication. This state affects the options in the context menu when a user right-clicks; the options allow for some kind of manipulations, such as:</p>
+                                        <ul>
+                                            <li value="1">Cut</li>
+                                            <li value="2">Copy</li>
+                                            <li value="3">Paste</li>
+                                            <li value="4">Remove</li>
+                                            <li value="5">Span</li>
+                                            <li value="6">Properties</li>
+                                            <li value="7">Add/New Control</li>
+                                        </ul>
+                                        <h3>To switch on the Design Mode</h3>
+                                        <ol>
+                                            <li value="1">The POS retail user must have POS Super User enabled.</li>
+                                            <li value="2">Start the POS.</li>
+                                            <li value="3">Right-click the mouse and select <i>Enter Design Mode</i>  (command DESIGNMODE).</li>
+                                        </ol>
+                                        <p>To stop to use the Design Mode in POS, do the same in reverse.</p>
+                                        <h3>To exit Design Mode</h3>
+                                        <ul>
+                                            <li value="1">Select the option <i>Exit Design Mode</i> (command DESIGNMODE).</li>
+                                        </ul>
+                                        <p>The DESIGNMODE command is an On/Off command; the same command is used to start and exit the Design Mode.</p>
+                                        <p>While in Design Mode, the POS gives an indication with a watermark text.</p>
+                                        <p>
+                                            <img src="../../../Resources/Images/LS Retail/POS/POS Setup/POS_S0001_P0044_DesignMode_800x441.png" style="width: 800;height: 441;" class="images" />
+                                        </p>
+                                        <h2><a name="Examples"></a>Examples of Context Menus</h2>
+                                        <p>The following images show the Context Menus for Normal Mode and Design Mode that are used in the Demo Data Company.</p>
+                                        <h3>#REGULARMODE - Regular Mode </h3>
+                                        <p>
+                                            <img src="../../../Resources/Images/LS Retail/POS/POS Setup/P_99008944_Regularmode_500x280.png" class="images" style="width: 500;height: 280;" />
+                                        </p>
+                                        <h3>#DATAGRID - Data Grid Mode</h3>
+                                        <p>
+                                            <img src="../../../Resources/Images/LS Retail/POS/POS Setup/P_99008944_Datagrid_500x255.png" class="images" style="width: 500;height: 255;" />
+                                        </p>
+                                        <h3>#DESIGNMODE - Design Mode</h3>
+                                        <p>
+                                            <img src="../../../Resources/Images/LS Retail/POS/POS Setup/P_99008944_Designmode_500x563.png" class="images" style="width: 500;height: 563;" />
+                                        </p>
+                                        <p>and more lines</p>
+                                        <h3>#MENUDESIGN - Menu Design</h3>
+                                        <p>
+                                            <img src="../../../Resources/Images/LS Retail/POS/POS Setup/P_99008944_Menudesign_500x337.png" class="images" style="width: 500;height: 337;" />
+                                        </p>
+                                        <h3>#MEDIACONTROL - Media Control</h3>
+                                        <p>
+                                            <img src="../../../Resources/Images/LS Retail/POS/POS Setup/P_99008944_Mediacontrol_500x270.png" class="images" style="width: 500;height: 270;" />
+                                        </p>
+                                        <h2><a name="POSCmd"></a>POS commands for the Interface Profile Context Menus</h2>
+                                        <p>These are the commands that can be used for the Interface Profile’s Context menus.</p>
+                                        <table class="TableStyle-To_SeeTable" style="mc-table-style: url('../../../Resources/Table Styles/To_SeeTable.css');" cellspacing="1">
+                                            <col style="width: 400pt;" class="TableStyle-To_SeeTable-Column-Column1" />
+                                            <col class="TableStyle-To_SeeTable-Column-Column1" />
+                                            <tr style="height: 14pt;">
+                                                <th class="TableStyle-To_SeeTable-BodyH-Column1-">Command</th>
+                                                <th class="TableStyle-To_SeeTable-BodyG-Column1-">Description</th>
+                                            </tr>
+                                            <tr style="height: 14pt;">
+                                                <td class="TableStyle-To_SeeTable-BodyH-Column1-">BUTTON_COPY</td>
+                                                <td class="TableStyle-To_SeeTable-BodyG-Column1-">Copy button</td>
+                                            </tr>
+                                            <tr style="height: 14pt;">
+                                                <td class="TableStyle-To_SeeTable-BodyH-Column1-">BUTTON_CUT</td>
+                                                <td class="TableStyle-To_SeeTable-BodyG-Column1-">Cut button</td>
+                                            </tr>
+                                            <tr style="height: 14pt;">
+                                                <td class="TableStyle-To_SeeTable-BodyH-Column1-">BUTTON_DELETE</td>
+                                                <td class="TableStyle-To_SeeTable-BodyG-Column1-">Delete button</td>
+                                            </tr>
+                                            <tr style="height: 14pt;">
+                                                <td class="TableStyle-To_SeeTable-BodyH-Column1-">BUTTON_PASTE</td>
+                                                <td class="TableStyle-To_SeeTable-BodyG-Column1-">Paste button</td>
+                                            </tr>
+                                            <tr style="height: 14pt;">
+                                                <td class="TableStyle-To_SeeTable-BodyH-Column1-">BUTTON_PASTE_ATTR</td>
+                                                <td class="TableStyle-To_SeeTable-BodyG-Column1-">Paste button attributes</td>
+                                            </tr>
+                                            <tr style="height: 14pt;">
+                                                <td class="TableStyle-To_SeeTable-BodyH-Column1-">BUTTON_PASTE_ATTRALL</td>
+                                                <td class="TableStyle-To_SeeTable-BodyG-Column1-">Paste button attributes to all</td>
+                                            </tr>
+                                            <tr style="height: 14pt;">
+                                                <td class="TableStyle-To_SeeTable-BodyH-Column1-">BUTTON_PROPERTIES</td>
+                                                <td class="TableStyle-To_SeeTable-BodyG-Column1-">Show button card</td>
+                                            </tr>
+                                            <tr style="height: 14pt;">
+                                                <td class="TableStyle-To_SeeTable-BodyH-Column1-">CONTROL_ADD</td>
+                                                <td class="TableStyle-To_SeeTable-BodyG-Column1-">Add control</td>
+                                            </tr>
+                                            <tr style="height: 14pt;">
+                                                <td class="TableStyle-To_SeeTable-BodyH-Column1-">CONTROL_COPY</td>
+                                                <td class="TableStyle-To_SeeTable-BodyG-Column1-">Copy control</td>
+                                            </tr>
+                                            <tr style="height: 14pt;">
+                                                <td class="TableStyle-To_SeeTable-BodyH-Column1-">CONTROL_CUT</td>
+                                                <td class="TableStyle-To_SeeTable-BodyG-Column1-">Cut control</td>
+                                            </tr>
+                                            <tr style="height: 14pt;">
+                                                <td class="TableStyle-To_SeeTable-BodyH-Column1-">CONTROL_PASTE</td>
+                                                <td class="TableStyle-To_SeeTable-BodyG-Column1-">Paste control</td>
+                                            </tr>
+                                            <tr style="height: 14pt;">
+                                                <td class="TableStyle-To_SeeTable-BodyH-Column1-">CONTROL_PROPERTIES</td>
+                                                <td class="TableStyle-To_SeeTable-BodyG-Column1-">Control properties</td>
+                                            </tr>
+                                            <tr style="height: 14pt;">
+                                                <td class="TableStyle-To_SeeTable-BodyH-Column1-">CONTROL_REMOVE</td>
+                                                <td class="TableStyle-To_SeeTable-BodyG-Column1-">Remove control</td>
+                                            </tr>
+                                            <tr style="height: 14pt;">
+                                                <td class="TableStyle-To_SeeTable-BodyH-Column1-">CONTROL_SPAN_COLUMN</td>
+                                                <td class="TableStyle-To_SeeTable-BodyG-Column1-">Change control column span</td>
+                                            </tr>
+                                            <tr style="height: 14pt;">
+                                                <td class="TableStyle-To_SeeTable-BodyH-Column1-">CONTROL_SPAN_ROW</td>
+                                                <td class="TableStyle-To_SeeTable-BodyG-Column1-">Change control row span</td>
+                                            </tr>
+                                            <tr style="height: 14pt;">
+                                                <td class="TableStyle-To_SeeTable-BodyH-Column1-">DESIGNMODE</td>
+                                                <td class="TableStyle-To_SeeTable-BodyG-Column1-">POS design mode</td>
+                                            </tr>
+                                            <tr style="height: 14pt;">
+                                                <td class="TableStyle-To_SeeTable-BodyH-Column1-">DATATABLE_PROPERTIES</td>
+                                                <td class="TableStyle-To_SeeTable-BodyG-Column1-">Opens current data table on data grid</td>
+                                            </tr>
+                                            <tr style="height: 14pt;">
+                                                <td class="TableStyle-To_SeeTable-BodyH-Column1-">LOOKUP_PROPERTIES</td>
+                                                <td class="TableStyle-To_SeeTable-BodyG-Column1-">Opens current lookup card</td>
+                                            </tr>
+                                            <tr style="height: 14pt;">
+                                                <td class="TableStyle-To_SeeTable-BodyH-Column1-">TERMINAL_PROPETIES</td>
+                                                <td class="TableStyle-To_SeeTable-BodyG-Column1-">Opens current terminal card</td>
+                                            </tr>
+                                            <tr style="height: 14pt;">
+                                                <td class="TableStyle-To_SeeTable-BodyH-Column1-">STAFF_PROPERTIES</td>
+                                                <td class="TableStyle-To_SeeTable-BodyG-Column1-">Opens current staff card</td>
+                                            </tr>
+                                            <tr style="height: 14pt;">
+                                                <td class="TableStyle-To_SeeTable-BodyH-Column1-">INTERFACE_PROFILE</td>
+                                                <td class="TableStyle-To_SeeTable-BodyG-Column1-">Opens current interface profile</td>
+                                            </tr>
+                                            <tr style="height: 14pt;">
+                                                <td class="TableStyle-To_SeeTable-BodyH-Column1-">HARDWARE_PROFILE</td>
+                                                <td class="TableStyle-To_SeeTable-BodyG-Column1-">Opens current hardware profile</td>
+                                            </tr>
+                                            <tr style="height: 14pt;">
+                                                <td class="TableStyle-To_SeeTable-BodyH-Column1-">FUNCTIONAL_PROFILE</td>
+                                                <td class="TableStyle-To_SeeTable-BodyG-Column1-">Opens current functionality profile</td>
+                                            </tr>
+                                            <tr style="height: 14pt;">
+                                                <td class="TableStyle-To_SeeTable-BodyH-Column1-">MENU_PROFILE</td>
+                                                <td class="TableStyle-To_SeeTable-BodyG-Column1-">Opens current menu profile</td>
+                                            </tr>
+                                            <tr style="height: 14pt;">
+                                                <td class="TableStyle-To_SeeTable-BodyH-Column1-">STYLE_PROFILE</td>
+                                                <td class="TableStyle-To_SeeTable-BodyG-Column1-">Opens current style profile</td>
+                                            </tr>
+                                        </table>
+                                        <p>&#160;</p>
+                                        <p>&#160;</p>
+                                    </div>
+                                    <div id="footer" class="ls-nav-footer">
+                                        <hr width="100%" size="0" align="center" />
+                                        <p>© <span class="VariablesCurrentYear">2021</span> LS Retail ehf. All rights reserved.  </p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div><a data-close="true"></a>
+                </div>
+            </div>
+        </div>
+    </body>
+</html>

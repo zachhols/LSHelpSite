@@ -1,0 +1,281 @@
+<!DOCTYPE html>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" lang="en-us" xml:lang="en-us" class="_Skins_HTML5___Side_Navigation" data-mc-search-type="Stem" data-mc-help-system-file-name="Default.xml" data-mc-path-to-help-system="../../../../" data-mc-has-content-body="True" data-mc-target-type="WebHelp2" data-mc-runtime-file-type="Topic;Default" data-mc-preload-images="false" data-mc-in-preview-mode="false" data-mc-toc-path="Retail|[%=System.LinkedTitle%]|[%=System.LinkedTitle%]|LS&#160;Central In-cloud and LS&#160;Insight in Azure">
+    <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <meta charset="utf-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+        <meta name="msapplication-config" content="../../../../Skins/Favicons/browserconfig.xml" />
+        <link rel="apple-touch-icon" sizes="180x180" href="../../../../Skins/Favicons/apple-touch-icon.png" />
+        <link rel="shortcut icon" href="../../../../Skins/Favicons/favicon-32x32.png" />
+        <link rel="icon" sizes="96x96" href="../../../../Skins/Favicons/favicon-96x96.png" />
+        <link rel="icon" sizes="32x32" href="../../../../Skins/Favicons/favicon-32x32.png" />
+        <link rel="icon" sizes="16x16" href="../../../../Skins/Favicons/favicon-16x16.png" /><title>3 Set Up Scheduler Server</title>
+        <link rel="shortcut icon" href="/Content/Resources/Images/favicon.ico" />
+        <link href="../../../../Skins/Default/Stylesheets/Slideshow.css" rel="stylesheet" />
+        <link href="../../../../Skins/Default/Stylesheets/TextEffects.css" rel="stylesheet" />
+        <link href="../../../../Skins/Default/Stylesheets/Topic.css" rel="stylesheet" />
+        <link href="../../../../Skins/Default/Stylesheets/Components/Styles.css" rel="stylesheet" />
+        <link href="../../../../Skins/Default/Stylesheets/Components/Tablet.css" rel="stylesheet" />
+        <link href="../../../../Skins/Default/Stylesheets/Components/Mobile.css" rel="stylesheet" />
+        <link href="../../../../Skins/Fluid/Stylesheets/foundation.6.2.3.css" rel="stylesheet" />
+        <link href="../../../../Skins/Fluid/Stylesheets/Styles.css" rel="stylesheet" />
+        <link href="../../../../Skins/Fluid/Stylesheets/Tablet.css" rel="stylesheet" />
+        <link href="../../../../Skins/Fluid/Stylesheets/Mobile.css" rel="stylesheet" />
+        <link href="../../../Resources/Stylesheets/LSNav.css" rel="stylesheet" />
+        <script src="../../../../Resources/Scripts/jquery.min.js">
+        </script>
+        <script src="../../../../Resources/Scripts/require.min.js" defer="defer">
+        </script>
+        <script src="../../../../Resources/Scripts/require.config.js" defer="defer">
+        </script>
+        <script src="../../../../Resources/Scripts/foundation.6.2.3_custom.js" defer="defer">
+        </script>
+        <script src="../../../../Resources/Scripts/plugins.min.js" defer="defer">
+        </script>
+        <script src="../../../../Resources/Scripts/MadCapAll.js" defer="defer">
+        </script>
+        <script src="../../../Resources/Javascripts/Scroll-Button.js" defer="defer">
+        </script>
+    </head>
+    <body>
+        <div class="foundation-wrap off-canvas-wrapper">
+            <div class="off-canvas-wrapper-inner" data-off-canvas-wrapper="">
+                <aside class="off-canvas position-right" role="navigation" id="offCanvas" data-off-canvas="" data-position="right" data-mc-ignore="true">
+                    <ul class="off-canvas-accordion vertical menu off-canvas-list" data-accordion-menu="" data-mc-back-link="Back" data-mc-css-tree-node-expanded="is-accordion-submenu-parent" data-mc-css-tree-node-collapsed="is-accordion-submenu-parent" data-mc-css-sub-menu="vertical menu is-accordion-submenu nested" data-mc-include-indicator="False" data-mc-include-icon="False" data-mc-include-parent-link="True" data-mc-include-back="False" data-mc-defer-expand-event="True" data-mc-expand-event="click.zf.accordionMenu" data-mc-toc="True">
+                    </ul>
+                </aside>
+                <div class="off-canvas-content inner-wrap" data-off-canvas-content="">
+                    <div data-sticky-container="" class="title-bar-container">
+                        <nav class="title-bar tab-bar sticky" data-sticky="" data-options="marginTop:0" style="width:100%" data-sticky-on="only screen and (max-width: 1279px)" data-mc-ignore="true"><a class="skip-to-content fluid-skip showOnFocus" href="#">Skip To Main Content</a>
+                            <div class="middle title-bar-section outer-row clearfix">
+                                <div class="menu-icon-container relative clearfix">
+                                    <div class="central-dropdown" style="display:none;" id="#centralSmallScreen"><a class="central-account-drop"><span class="central-account-image"></span><span class="central-account-text">Account</span></a>
+                                        <div class="central-dropdown-content"><a class="MCCentralLink central-dropdown-content-settings">Settings</a>
+                                            <hr class="central-separator" /><a class="MCCentralLink central-dropdown-content-logout">Logout</a>
+                                        </div>
+                                    </div>
+                                    <button class="menu-icon" aria-label="Show Navigation Panel" data-toggle="offCanvas"><span></span>
+                                    </button>
+                                </div>
+                            </div>
+                            <div class="title-bar-layout outer-row">
+                                <div class="logo-wrapper"><a class="logo" href="../../../home.html" title="LS Central Help" alt="Logo"></a>
+                                </div>
+                                <div class="navigation-wrapper nocontent">
+                                    <ul class="navigation clearfix" data-mc-css-tree-node-has-children="has-children" data-mc-css-sub-menu="sub-menu" data-mc-expand-event="mouseenter" data-mc-top-nav-menu="True" data-mc-max-depth="3" data-mc-include-icon="False" data-mc-include-indicator="False" data-mc-include-children="True" data-mc-include-siblings="True" data-mc-include-parent="True" data-mc-toc="True">
+                                        <li class="placeholder" style="visibility:hidden"><a>placeholder</a>
+                                        </li>
+                                    </ul>
+                                    <div class="central-dropdown" style="display:none;" id="#centralTop"><a class="central-account-drop"><span class="central-account-image"></span><span class="central-account-text">Account</span></a>
+                                        <div class="central-dropdown-content"><a class="MCCentralLink central-dropdown-content-settings">Settings</a>
+                                            <hr class="central-separator" /><a class="MCCentralLink central-dropdown-content-logout">Logout</a>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="nav-search-wrapper">
+                                    <div class="nav-search row">
+                                        <form class="search" action="#">
+                                            <div class="search-bar search-bar-container needs-pie">
+                                                <input class="search-field needs-pie" type="search" aria-label="Search Field" placeholder="Search" />
+                                                <div class="search-filter-wrapper"><span class="invisible-label" id="search-filters-label">Filter: </span>
+                                                    <div class="search-filter" aria-haspopup="true" aria-controls="sf-content" aria-expanded="false" aria-label="Search Filter" title="All Files" role="button" tabindex="0">
+                                                    </div>
+                                                    <div class="search-filter-content" id="sf-content">
+                                                        <ul>
+                                                            <li>
+                                                                <button class="mc-dropdown-item" aria-labelledby="search-filters-label filterSelectorLabel-00001"><span id="filterSelectorLabel-00001">All Files</span>
+                                                                </button>
+                                                            </li>
+                                                        </ul>
+                                                    </div>
+                                                </div>
+                                                <div class="search-submit-wrapper" dir="ltr">
+                                                    <div class="search-submit" title="Search" role="button" tabindex="0"><span class="invisible-label">Submit Search</span>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </form>
+                                    </div>
+                                    <div class="central-dropdown" style="display:none;"><a class="central-account-drop"><span class="central-account-image"></span><span class="central-account-text">Account</span></a>
+                                        <div class="central-dropdown-content"><a class="MCCentralLink central-dropdown-content-settings">Settings</a>
+                                            <hr class="central-separator" /><a class="MCCentralLink central-dropdown-content-logout">Logout</a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </nav>
+                    </div>
+                    <div class="main-section">
+                        <div class="row outer-row sidenav-layout">
+                            <nav class="sidenav-wrapper">
+                                <div class="sidenav-container">
+                                    <ul class="off-canvas-accordion vertical menu sidenav" data-accordion-menu="" data-mc-css-tree-node-expanded="is-accordion-submenu-parent" data-mc-css-tree-node-collapsed="is-accordion-submenu-parent" data-mc-css-sub-menu="vertical menu accordion-menu is-accordion-submenu nested" data-mc-include-indicator="False" data-mc-include-icon="False" data-mc-include-parent-link="False" data-mc-include-back="False" data-mc-defer-expand-event="True" data-mc-expand-event="click.zf.accordionMenu" data-mc-toc="True" data-mc-side-nav-menu="True">
+                                    </ul>
+                                </div>
+                            </nav>
+                            <div class="body-container">
+                                <div data-mc-content-body="True">
+                                    <MadCap:conditionalText data-mc-conditions="Default.GoogleAnalytics">
+                                        <script>/* <![CDATA[ */
+				(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+				(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+				m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+				})(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+			
+				ga('create', 'UA-58791693-4', 'auto');
+			
+				var file = document.location.href; 
+				file = file.substring(0, (file.indexOf("#") == -1) ? file.length : file.indexOf("#"));
+				file = file.substring(0, (file.indexOf("?") == -1) ? file.length : file.indexOf("?"));
+				file = file.substring(file.lastIndexOf("/") + 1, file.length);
+ 
+				if (file === 'Search.htm') 
+				{
+					var newPath = document.location.pathname + document.location.search + document.location.hash;
+					newPath = newPath.replace(/#/, '?');
+					newPath = newPath.replace(/search\-/, 'q=');
+					ga('set', 'page', newPath);
+				
+					function locationHashChanged()
+					{
+						newPath = document.location.pathname + document.location.search + document.location.hash;
+						newPath = newPath.replace(/#/, '?');
+						newPath = newPath.replace(/search\-/, 'q=');
+						ga('set', 'page', newPath);
+						ga('send', 'pageview');
+					}
+				
+					if(window.HashChangeEvent)
+					{
+						window.onhashchange = locationHashChanged;
+					}
+				}
+				ga('send', 'pageview');
+			/* ]]> */</script>
+                                    </MadCap:conditionalText>
+                                    <div class="nocontent">
+                                        <div class="MCBreadcrumbsBox_0 breadcrumbs" role="navigation" aria-label="Breadcrumbs" data-mc-breadcrumbs-divider=" &gt; " data-mc-breadcrumbs-count="3" data-mc-toc="True"><span class="MCBreadcrumbsPrefix">You are here: </span>
+                                        </div>
+                                    </div>
+                                    <p>&#160;</p>
+                                    <div role="main" id="mc-main-content">
+                                        <h1><a name="aanchor11011"></a>
+                                            <MadCap:concept term="Retail" />3  Set Up Scheduler Server</h1>
+                                        <p>In this step you set up the Scheduler server. This needs to be either a physical computer or a virtual machine. </p>
+                                        <p>This is the server that you use to run the scheduled replication from <span class="GeneralLSCentral_Mini">LS&#160;Central</span> in-cloud (SaaS) to LS Insight pre-staging tables.</p>
+                                        <p>For this you use <span class="GeneralLSCentral_Mini">LS&#160;Central</span> on-premises and Data Director. <span class="GeneralLSCentral_Mini">LS&#160;Central</span> keeps the schedule and the replication jobs and Data Director runs the job to move the data between the two databases.</p>
+                                        <p><b>Note:</b> It is very important that this server is always running. If the server is not running when a job is scheduled to run, the job will not run and the data will not be replicated.</p>
+                                        <h2>Hardware and software requirements</h2>
+                                        <h3>Minimum hardware requirements</h3>
+                                        <p>The only hardware requirements for this server follow the requirements for the SQL server and the <span class="GeneralBC_Mini">Business Central</span> setup and Data Director setup.</p>
+                                        <p>The server must have:</p>
+                                        <ul>
+                                            <li value="1">At least a four-core processor</li>
+                                            <li value="2">16 GB RAM</li>
+                                            <li value="3">50 GB hard drive or SSD</li>
+                                        </ul>
+                                        <h3>Minimum software requirements</h3>
+                                        <p><b>Operating system:</b>
+                                        </p>
+                                        <ul>
+                                            <li value="1">Windows 10 Pro, Enterprise, or Education (64-bit edition)</li>
+                                            <li value="2">Windows Server 2019 Standard, Essentials, or Datacenter</li>
+                                            <li value="3">Windows Server 2016 Standard, Essentials, or Datacenter</li>
+                                        </ul>
+                                        <p><b>SQL&#160;server:</b>
+                                        </p>
+                                        <ul>
+                                            <li value="1">
+                                                <p>Microsoft SQL Server 2019 Express, Standard, or Enterprise. SQL server Express is sufficient here since this machine is not used to store any data (10 GB database limit). </p>
+                                            </li>
+                                        </ul>
+                                        <p>If you already have a machine that you are using for other things and it is always on, you can use that machine as the scheduler service. </p>
+                                        <blockquote>
+                                            <p><b>Note:</b> The computer used for testing is a virtual machine on LS&#160;Retail company domain with these specs:</p>
+                                            <p>&#160;</p>
+                                            <p>Hardware</p>
+                                            <ul>
+                                                <li value="1"> Intel® Xeon® Gold 6142 Processor 2.60 GHz</li>
+                                                <li value="2">16 GB RAM</li>
+                                                <li value="3">100 GB hard drive</li>
+                                            </ul>
+                                            <p>Software</p>
+                                            <ul>
+                                                <li value="1">Windows Server 2019 Standard</li>
+                                                <li value="2">Internet Information Services 10 (setup by Data Director setup)</li>
+                                                <li value="3">Data Director 3.2.102.7564</li>
+                                                <li value="4">SQL Server 2019 Express</li>
+                                                <li value="5">SQL&#160;Server Management Studio v18.5 (not essential but good for accessing LS Insight Azure database, if needed)</li>
+                                            </ul>
+                                        </blockquote>
+                                        <h2>Licensing</h2>
+                                        <p>The customer will need an extra <span class="GeneralLSCentral_Mini">LS&#160;Central</span> license for the Scheduler server. LS&#160;Retail Licensing has been selling license like this for the hybrid cloud server, but if you are not running hybrid cloud setup and want to set up LS Insight, you can ask to buy an offline store license to supplement your cloud (SaaS) subscription. </p>
+                                        <h2><span class="GeneralLSCentral_Mini">LS&#160;Central</span> setup</h2>
+                                        <p>The best way to set up <span class="GeneralLSCentral_Mini">LS&#160;Central</span> on-premises that is quick to set up and easy to update is to get the Go Current installer from the LS Retail Portal.  </p>
+                                        <ol>
+                                            <li value="1">Download the <a href="https://portal.lsretail.com/products/ls-central/latest-release/">latest version of LS Central</a>. This link will download the <i>LS Central - Latest.exe</i> file.</li>
+                                            <li value="2">Run the <i>.exe</i> file.</li>
+                                            <li value="3">Go Current will display the installation options. </li>
+                                            <li value="4">Select the top option to install <span class="GeneralLSCentral_Mini">LS&#160;Central</span> with demo data.<p>The only  setup parameters you might need to change are the:</p><ul><li value="1">SQL&#160;server, if the instance is a named instance. For example, if the server is SQL Express.</li><li value="2">License file.<br /></li></ul></li>
+                                        </ol>
+                                        <ol data-mc-continue="true">
+                                            <li value="5">Start the installation. The installation will take between 1 or 2 hours.</li>
+                                            <li value="6">When the installation is completed, you can find the <span class="GeneralLSCentral_Mini">LS&#160;Central</span> web client in your Windows Start menu and open <span class="GeneralLSCentral_Mini">LS&#160;Central</span> from there.</li>
+                                        </ol>
+                                        <h2>NAS configuration </h2>
+                                        <h3>Set up Service Tier Administration</h3>
+                                        <p> To check if you have Service Tier Administrator set up on the machine, type 'Service tier' in the Windows search field and it should pop up.</p>
+                                        <p>If it does not, you need to download it <a href="https://mibuso.com/downloads/service-tier-administration-tool">here</a>. When you have gone through the setup and started the client, you should see a line for the <span class="GeneralBC_Maxi">Microsoft Dynamics 365 Business Central</span> Server you have just installed. It should be called <i><span class="GeneralLSCentral_Mini">LS&#160;Central</span></i>.</p>
+                                        <h3>Configure NAS service</h3>
+                                        <ol>
+                                            <li value="1">Select that line (see above) and click <b>Stop Service</b> in the top ribbon. </li>
+                                            <li value="2">Once you have stopped the service, you need to locate the NAS Services configuration section on the right.</li>
+                                            <li value="3">If the parameters are empty and have not been set, enter the following information:<ul><li value="1">Startup Argument: LSRBATCHPOST LSRSCHEDULER LOG=1,REPEAT=1</li><li value="2">Startup Codeunit: 99001454</li><li value="3">Startup Method: LSRetailNASHandler</li></ul></li>
+                                        </ol>
+                                        <p>If the NAS is in use, for example if you are using Hybrid cloud server, you need to be careful not to overwrite any existing settings.</p>
+                                        <p>If the TYPEFILTER parameter is set, for example like this: TYPEFILTER=MISC|DD, you need to add the LSINSIGHT typefilter to the setting like this:</p>
+                                        <ul>
+                                            <li value="1"> TYPEFILTER=MISC|DD|LSINSIGHT</li>
+                                        </ul>
+                                        <p>
+                                            <img src="../../../Resources/Images/LS Insight Help/NASconfigurations_800x249.png" style="width: 800;height: 249;" class="images" />
+                                        </p>
+                                        <p>Now you have the NAS Service settings in place, but you have yet to enable them in <span class="GeneralLSCentral_Mini">LS&#160;Central</span>. This will be done later in the process.</p>
+                                        <h2><span class="GeneralLSDataDirector">LS&#160;Data Director</span> setup</h2>
+                                        <p>You can download the <span class="GeneralLSDataDirector">LS&#160;Data Director</span> (DD) from the <a href="https://portal.lsretail.com/products/ls-central/ls-data-director/">LS Retail Portal</a>. For replication to and from the cloud you need to use the new version of DD 3.2.102 or later.</p>
+                                        <p>Find the Latest version folder and download the<i> LS.DataDirector.3.02.102.Setup.exe</i>. Once you have set up the DD, you will be able to access the documentation files from this folder: <i>C:\Program Files (x86)\LS Retail\Data Director 3\docs</i>, so you do not need to download them at this point, but it is always a good idea to familiarize yourself with software you have not used before by reading the documentation.</p>
+                                        <h3>To set up the Data Director</h3>
+                                        <ol>
+                                            <li value="1">Run the <i>LS.DataDirector.3.02.102.Setup.exe</i>. On the first page, select a setup folder for the <span class="GeneralLSDataDirector">LS&#160;Data Director</span>. We recommend keeping the default folder, if possible.</li>
+                                            <li value="2">Click <b>Next </b>to continue.</li>
+                                            <li value="3">In the task selection window, make sure that the top two check boxes and the bottom check box for Web service setup are selected.<p><img src="../../../Resources/Images/LS Insight Help/DDSetup.png" class="images" /></p><p>You do not need to install the other remaining tasks.</p></li>
+                                            <li value="4">Click <b>Next </b>to continue.</li>
+                                            <li value="5">Here you should keep the proposed Web site name and Web service name:<ul><li value="1"><b>Web Site name:</b> Default Web Site</li><li value="2"><b>Web Service name:</b> DDWebService</li></ul><p>The Web service name is used later in the <span class="GeneralLSCentral_Mini">LS&#160;Central</span> web service setup.</p></li>
+                                            <li value="6">Click <b>Finish </b>when the installation is done.</li>
+                                            <li value="7">Click <b>Install </b>to start installation.</li>
+                                            <li value="8">Click <b>Next </b>to continue</li>
+                                            <li value="9">When the installation is complete, you need to open the DD Configuration tool as administrator: <ol style="list-style-type: lower-alpha;"><li value="1">Select the <b>App Config</b> tab, and select the <b>Use WS</b> check box. </li><li value="2">Click the <b>Save Config</b> button.</li><li value="3">Click the <b>Stop DD</b> button.</li><li value="4">Click the <b>Start DD</b> button to restart the Data Director.</li></ol></li>
+                                        </ol>
+                                        <p>The Data Director setup is now ready for replication.</p>
+                                        <p>&#160;</p>
+                                        <p><a href="2-WS-Setup-In-Cloud.htm">&lt; Back</a>
+                                        </p>
+                                        <p><a style="float: right;" href="4-Download-LS-Insight-Product-Package.htm">Next &gt;</a><a style="float: right;" href="1-Subscription.htm">&#160;</a>
+                                        </p>
+                                        <p>&#160;</p>
+                                        <p>&#160;</p>
+                                    </div>
+                                    <div id="footer" class="ls-nav-footer">
+                                        <hr width="100%" size="0" align="center" />
+                                        <p>© <span class="VariablesCurrentYear">2021</span> LS Retail ehf. All rights reserved.  </p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div><a data-close="true"></a>
+                </div>
+            </div>
+        </div>
+    </body>
+</html>

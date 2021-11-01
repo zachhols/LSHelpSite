@@ -1,0 +1,482 @@
+<!DOCTYPE html>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" lang="en-us" xml:lang="en-us" class="_Skins_HTML5___Side_Navigation" data-mc-search-type="Stem" data-mc-help-system-file-name="Default.xml" data-mc-path-to-help-system="../../../" data-mc-has-content-body="True" data-mc-target-type="WebHelp2" data-mc-runtime-file-type="Topic;Default" data-mc-preload-images="false" data-mc-in-preview-mode="false" data-mc-toc-path="Retail|LS Data Director|Configuration|Configuration Data for DD Host">
+    <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <meta charset="utf-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+        <meta name="msapplication-config" content="../../../Skins/Favicons/browserconfig.xml" />
+        <link rel="apple-touch-icon" sizes="180x180" href="../../../Skins/Favicons/apple-touch-icon.png" />
+        <link rel="shortcut icon" href="../../../Skins/Favicons/favicon-32x32.png" />
+        <link rel="icon" sizes="96x96" href="../../../Skins/Favicons/favicon-96x96.png" />
+        <link rel="icon" sizes="32x32" href="../../../Skins/Favicons/favicon-32x32.png" />
+        <link rel="icon" sizes="16x16" href="../../../Skins/Favicons/favicon-16x16.png" /><title>Debugging</title>
+        <link rel="shortcut icon" href="/Content/Resources/Images/favicon.ico" />
+        <link href="../../../Skins/Default/Stylesheets/Slideshow.css" rel="stylesheet" />
+        <link href="../../../Skins/Default/Stylesheets/TextEffects.css" rel="stylesheet" />
+        <link href="../../../Skins/Default/Stylesheets/Topic.css" rel="stylesheet" />
+        <link href="../../../Skins/Default/Stylesheets/Components/Styles.css" rel="stylesheet" />
+        <link href="../../../Skins/Default/Stylesheets/Components/Tablet.css" rel="stylesheet" />
+        <link href="../../../Skins/Default/Stylesheets/Components/Mobile.css" rel="stylesheet" />
+        <link href="../../../Skins/Fluid/Stylesheets/foundation.6.2.3.css" rel="stylesheet" />
+        <link href="../../../Skins/Fluid/Stylesheets/Styles.css" rel="stylesheet" />
+        <link href="../../../Skins/Fluid/Stylesheets/Tablet.css" rel="stylesheet" />
+        <link href="../../../Skins/Fluid/Stylesheets/Mobile.css" rel="stylesheet" />
+        <link href="../../Resources/Stylesheets/LSNav.css" rel="stylesheet" />
+        <script src="../../../Resources/Scripts/jquery.min.js">
+        </script>
+        <script src="../../../Resources/Scripts/require.min.js" defer="defer">
+        </script>
+        <script src="../../../Resources/Scripts/require.config.js" defer="defer">
+        </script>
+        <script src="../../../Resources/Scripts/foundation.6.2.3_custom.js" defer="defer">
+        </script>
+        <script src="../../../Resources/Scripts/plugins.min.js" defer="defer">
+        </script>
+        <script src="../../../Resources/Scripts/MadCapAll.js" defer="defer">
+        </script>
+        <script src="../../Resources/Javascripts/Scroll-Button.js" defer="defer">
+        </script>
+    </head>
+    <body>
+        <div class="foundation-wrap off-canvas-wrapper">
+            <div class="off-canvas-wrapper-inner" data-off-canvas-wrapper="">
+                <aside class="off-canvas position-right" role="navigation" id="offCanvas" data-off-canvas="" data-position="right" data-mc-ignore="true">
+                    <ul class="off-canvas-accordion vertical menu off-canvas-list" data-accordion-menu="" data-mc-back-link="Back" data-mc-css-tree-node-expanded="is-accordion-submenu-parent" data-mc-css-tree-node-collapsed="is-accordion-submenu-parent" data-mc-css-sub-menu="vertical menu is-accordion-submenu nested" data-mc-include-indicator="False" data-mc-include-icon="False" data-mc-include-parent-link="True" data-mc-include-back="False" data-mc-defer-expand-event="True" data-mc-expand-event="click.zf.accordionMenu" data-mc-toc="True">
+                    </ul>
+                </aside>
+                <div class="off-canvas-content inner-wrap" data-off-canvas-content="">
+                    <div data-sticky-container="" class="title-bar-container">
+                        <nav class="title-bar tab-bar sticky" data-sticky="" data-options="marginTop:0" style="width:100%" data-sticky-on="only screen and (max-width: 1279px)" data-mc-ignore="true"><a class="skip-to-content fluid-skip showOnFocus" href="#">Skip To Main Content</a>
+                            <div class="middle title-bar-section outer-row clearfix">
+                                <div class="menu-icon-container relative clearfix">
+                                    <div class="central-dropdown" style="display:none;" id="#centralSmallScreen"><a class="central-account-drop"><span class="central-account-image"></span><span class="central-account-text">Account</span></a>
+                                        <div class="central-dropdown-content"><a class="MCCentralLink central-dropdown-content-settings">Settings</a>
+                                            <hr class="central-separator" /><a class="MCCentralLink central-dropdown-content-logout">Logout</a>
+                                        </div>
+                                    </div>
+                                    <button class="menu-icon" aria-label="Show Navigation Panel" data-toggle="offCanvas"><span></span>
+                                    </button>
+                                </div>
+                            </div>
+                            <div class="title-bar-layout outer-row">
+                                <div class="logo-wrapper"><a class="logo" href="../../home.html" title="LS Central Help" alt="Logo"></a>
+                                </div>
+                                <div class="navigation-wrapper nocontent">
+                                    <ul class="navigation clearfix" data-mc-css-tree-node-has-children="has-children" data-mc-css-sub-menu="sub-menu" data-mc-expand-event="mouseenter" data-mc-top-nav-menu="True" data-mc-max-depth="3" data-mc-include-icon="False" data-mc-include-indicator="False" data-mc-include-children="True" data-mc-include-siblings="True" data-mc-include-parent="True" data-mc-toc="True">
+                                        <li class="placeholder" style="visibility:hidden"><a>placeholder</a>
+                                        </li>
+                                    </ul>
+                                    <div class="central-dropdown" style="display:none;" id="#centralTop"><a class="central-account-drop"><span class="central-account-image"></span><span class="central-account-text">Account</span></a>
+                                        <div class="central-dropdown-content"><a class="MCCentralLink central-dropdown-content-settings">Settings</a>
+                                            <hr class="central-separator" /><a class="MCCentralLink central-dropdown-content-logout">Logout</a>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="nav-search-wrapper">
+                                    <div class="nav-search row">
+                                        <form class="search" action="#">
+                                            <div class="search-bar search-bar-container needs-pie">
+                                                <input class="search-field needs-pie" type="search" aria-label="Search Field" placeholder="Search" />
+                                                <div class="search-filter-wrapper"><span class="invisible-label" id="search-filters-label">Filter: </span>
+                                                    <div class="search-filter" aria-haspopup="true" aria-controls="sf-content" aria-expanded="false" aria-label="Search Filter" title="All Files" role="button" tabindex="0">
+                                                    </div>
+                                                    <div class="search-filter-content" id="sf-content">
+                                                        <ul>
+                                                            <li>
+                                                                <button class="mc-dropdown-item" aria-labelledby="search-filters-label filterSelectorLabel-00001"><span id="filterSelectorLabel-00001">All Files</span>
+                                                                </button>
+                                                            </li>
+                                                        </ul>
+                                                    </div>
+                                                </div>
+                                                <div class="search-submit-wrapper" dir="ltr">
+                                                    <div class="search-submit" title="Search" role="button" tabindex="0"><span class="invisible-label">Submit Search</span>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </form>
+                                    </div>
+                                    <div class="central-dropdown" style="display:none;"><a class="central-account-drop"><span class="central-account-image"></span><span class="central-account-text">Account</span></a>
+                                        <div class="central-dropdown-content"><a class="MCCentralLink central-dropdown-content-settings">Settings</a>
+                                            <hr class="central-separator" /><a class="MCCentralLink central-dropdown-content-logout">Logout</a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </nav>
+                    </div>
+                    <div class="main-section">
+                        <div class="row outer-row sidenav-layout">
+                            <nav class="sidenav-wrapper">
+                                <div class="sidenav-container">
+                                    <ul class="off-canvas-accordion vertical menu sidenav" data-accordion-menu="" data-mc-css-tree-node-expanded="is-accordion-submenu-parent" data-mc-css-tree-node-collapsed="is-accordion-submenu-parent" data-mc-css-sub-menu="vertical menu accordion-menu is-accordion-submenu nested" data-mc-include-indicator="False" data-mc-include-icon="False" data-mc-include-parent-link="False" data-mc-include-back="False" data-mc-defer-expand-event="True" data-mc-expand-event="click.zf.accordionMenu" data-mc-toc="True" data-mc-side-nav-menu="True">
+                                    </ul>
+                                </div>
+                            </nav>
+                            <div class="body-container">
+                                <div data-mc-content-body="True">
+                                    <MadCap:conditionalText data-mc-conditions="Default.GoogleAnalytics">
+                                        <script>/* <![CDATA[ */
+				(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+				(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+				m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+				})(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+			
+				ga('create', 'UA-58791693-4', 'auto');
+			
+				var file = document.location.href; 
+				file = file.substring(0, (file.indexOf("#") == -1) ? file.length : file.indexOf("#"));
+				file = file.substring(0, (file.indexOf("?") == -1) ? file.length : file.indexOf("?"));
+				file = file.substring(file.lastIndexOf("/") + 1, file.length);
+ 
+				if (file === 'Search.htm') 
+				{
+					var newPath = document.location.pathname + document.location.search + document.location.hash;
+					newPath = newPath.replace(/#/, '?');
+					newPath = newPath.replace(/search\-/, 'q=');
+					ga('set', 'page', newPath);
+				
+					function locationHashChanged()
+					{
+						newPath = document.location.pathname + document.location.search + document.location.hash;
+						newPath = newPath.replace(/#/, '?');
+						newPath = newPath.replace(/search\-/, 'q=');
+						ga('set', 'page', newPath);
+						ga('send', 'pageview');
+					}
+				
+					if(window.HashChangeEvent)
+					{
+						window.onhashchange = locationHashChanged;
+					}
+				}
+				ga('send', 'pageview');
+			/* ]]> */</script>
+                                    </MadCap:conditionalText>
+                                    <div class="nocontent">
+                                        <div class="MCBreadcrumbsBox_0 breadcrumbs" role="navigation" aria-label="Breadcrumbs" data-mc-breadcrumbs-divider=" &gt; " data-mc-breadcrumbs-count="3" data-mc-toc="True"><span class="MCBreadcrumbsPrefix">You are here: </span>
+                                        </div>
+                                    </div>
+                                    <p>&#160;</p>
+                                    <div role="main" id="mc-main-content">
+                                        <h1><a name="aanchor10287"></a>
+                                            <MadCap:concept term="Retail" />Debugging</h1>
+                                        <p>Here you can look at the Debug stream from each DD Process and look at the Job Queue in the Router. If you run into a problem, this is the place to check what is going on. Local DD versions and build numbers are also displayed here.</p>
+                                        <p class="shortcut"><a href="#Queue" class="MCXref xref">Queue</a>
+                                        </p>
+                                        <p class="shortcut"><a href="#App" class="MCXref xref">App Status</a>
+                                        </p>
+                                        <p class="shortcut"><a href="#Process" class="MCXref xref">Process live debugging</a>
+                                        </p>
+                                        <p class="shortcut"><a href="#Debug" class="MCXref xref">Debug levels </a>
+                                        </p>
+                                        <p><b>Note:</b> If you need to contact LS Retail because of problems, you may be required to send the debug files and other information that you can get from the <b>Debugging </b>tab.</p>
+                                        <p>
+                                            <img src="../../Resources/Images/LS Data Director User Guide/Configuration_7_450x347.png" style="width: 450;height: 347;">
+                                            </img>
+                                        </p>
+                                        <table>
+                                            <col style="width: 250px;">
+                                            </col>
+                                            <col>
+                                            </col>
+                                            <tr>
+                                                <th>Field</th>
+                                                <th>Description</th>
+                                            </tr>
+                                            <tr>
+                                                <td><b>Queue</b>
+                                                </td>
+                                                <td>Show Processing Queues within the Router. To update the status, click the <b>Queue </b>button again.</td>
+                                            </tr>
+                                            <tr>
+                                                <td><b>Global Queue</b>
+                                                </td>
+                                                <td>Show a list of all of the Jobs in Router memory. This is both jobs in or waiting for processing and jobs that are Done within the time frame set in the <b>Job Memory Timeout </b>value. To update the list, click the button again.</td>
+                                            </tr>
+                                            <tr>
+                                                <td><b>Dump Mem</b>
+                                                </td>
+                                                <td>Dump Router memory queue data to XML file for debugging.</td>
+                                            </tr>
+                                            <tr>
+                                                <td><b>Errors</b>
+                                                </td>
+                                                <td>Shows the latest errors detected by the system. The number of errors shown here is based on the<b> Errors in Memory </b>value.</td>
+                                            </tr>
+                                            <tr>
+                                                <td><b>Proc. Que</b>
+                                                </td>
+                                                <td>Process Queue that shows if any jobs are currently in processing and waiting for reply on any of the CFront Database Processes.</td>
+                                            </tr>
+                                            <tr>
+                                                <td><b>App Status</b>
+                                                </td>
+                                                <td>Shows the Running status of all DD Processes.</td>
+                                            </tr>
+                                            <tr>
+                                                <td><b>Job Monitor</b>
+                                                </td>
+                                                <td>Starts up a Job Monitor for the selected host.</td>
+                                            </tr>
+                                            <tr>
+                                                <td><b>Debug File Size</b>
+                                                </td>
+                                                <td>Maximum size of each Debug file. When a Debug file reaches this size, a new file will be created.</td>
+                                            </tr>
+                                            <tr>
+                                                <td><b>Debug File Count</b>
+                                                </td>
+                                                <td>Maximum number of debug files to create. When the limit is reached, the DD will override the first Debug file.</td>
+                                            </tr>
+                                            <tr>
+                                                <td><b>Keep Files for</b>
+                                                </td>
+                                                <td>Maximum number of days that older debugging files from previous runs will be kept in the<b> Log</b> folder.</td>
+                                            </tr>
+                                            <tr>
+                                                <td><b>Client Ctrl Level</b>
+                                                </td>
+                                                <td>File Debug level for Client Control Debugging to generate debug log from the client DLLs.<p class="p_table"><b>Note:</b> Client using the files has to be restarted for logging to start.</p></td>
+                                            </tr>
+                                            <tr>
+                                                <td><b>Keep Data Files</b>
+                                                </td>
+                                                <td>Keep Job Data files after processing. Useful to look at data files after data has been replicated, but is not correct.<p class="p_table"><b>Note:</b> This will require lot of hard disk space to hold all the job files.</p></td>
+                                            </tr>
+                                            <tr>
+                                                <td><b>Hide Pwd in Logs</b>
+                                                </td>
+                                                <td>Hides password from Database connection string in Debug Log files and Debug Live stream.</td>
+                                            </tr>
+                                            <tr>
+                                                <td><b>Startup Levels</b>
+                                                </td>
+                                                <td>File Debug level for each DD Process. This is used when the DD starts and if its value is greater than<i> 0</i>, the DD will log the data onto file.</td>
+                                            </tr>
+                                            <tr>
+                                                <td><b>Base64 Convert</b>
+                                                </td>
+                                                <td>Translate Base64 Text String to readable text.</td>
+                                            </tr>
+                                        </table>
+                                        <p>In order to find out which debug level value you should put in the <b>Startup Level</b> and <b>Client Level</b>, you can use the Level Calculator to calculate the value for you. Check the levels you want to log and then you can double-click the <b>Startup Level </b>field and it will fill out correct value for you.</p>
+                                        <p>If you look at the XML Data files from the work folder, you may see that the text strings look as if they only contain garbage text. You can copy this text, paste it into the <b>Base64 String </b>field, and click <b>Convert </b>to see what it actually means.</p>
+                                        <h2><a name="Queue"></a>Queue</h2>
+                                        <p>The Router has a few Queues where it stores all jobs waiting to be processed. Here you can see the status of these queues and if any jobs are waiting there to be processed.</p>
+                                        <p>
+                                            <img src="../../Resources/Images/LS Data Director User Guide/Configuration_8_450x304.png" style="width: 450;height: 304;">
+                                            </img>
+                                        </p>
+                                        <p>If no job is waiting, you see a list of available queues and no data within the queue.</p>
+                                        <p>If a job is waiting in the queue, you will see Host sub queues within the processing queue, and then job sub queues within the Host queue. </p>
+                                        <ul>
+                                            <li value="1">Click either the Host queue or Job queue to see how many packages or jobs are waiting and the overall status of the queue. </li>
+                                        </ul>
+                                        <table>
+                                            <col style="width: 250px;">
+                                            </col>
+                                            <col>
+                                            </col>
+                                            <tr>
+                                                <th>&#160;</th>
+                                                <th>Description</th>
+                                            </tr>
+                                            <tr>
+                                                <td><b>RegTime</b>
+                                                </td>
+                                                <td>Last time pack was accessed in the queue.</td>
+                                            </tr>
+                                            <tr>
+                                                <td><b>Offline</b>
+                                                </td>
+                                                <td>If Host is an offline host, the job will wait until that host connects and collects the jobs waiting to be forwarded to that host.</td>
+                                            </tr>
+                                            <tr>
+                                                <td><b>Error</b>
+                                                </td>
+                                                <td>If there is any error and error message associated with the queue.</td>
+                                            </tr>
+                                            <tr>
+                                                <td><b>Waiting</b>
+                                                </td>
+                                                <td>If the job is doing Database access or being forwarded to the next host, the router waits for a status update on the job process. If the queue gets stuck in processing mode with waiting as true, you can reset the queue by clicking the <b>Reset</b> button.</td>
+                                            </tr>
+                                            <tr>
+                                                <td><b>On Hold</b>
+                                                </td>
+                                                <td>The queue has been put on hold and will not be processed until taken off hold.</td>
+                                            </tr>
+                                            <tr>
+                                                <td><b>Data Cnt</b>
+                                                </td>
+                                                <td>Number of Jobs waiting in the queue.</td>
+                                            </tr>
+                                        </table>
+                                        <p><b>Tip:</b> Select the check box <b>Word Wrap</b> to wrap the information text, if a long error message is present.</p>
+                                        <p>The <b>Refresh</b> button refreshes one queue node and <b>Refresh All</b> refreshes all queues.</p>
+                                        <p>The <b>Show 1st PK</b> button pulls data from the first job data pack in queue and displays information about the job and the host.</p>
+                                        <p>You can use the <b>Check Work</b> button to reload any ghost jobs that are waiting in the <b>Work</b> folder but which have for some reason  been lost from the Queue or Job Monitor. <b>Note:</b> This should only be used when there are no jobs waiting in Job Monitor and DD is idle as it may override some statues of jobs that are currently in processing.</p>
+                                        <h2><a name="App"></a>App Status</h2>
+                                        <p>Behind the scenes, the DD consists of a few processes that each has a special purpose. To look at the status of each process and see if they are all running or not, check the dialog window below:</p>
+                                        <p>
+                                            <img src="../../Resources/Images/LS Data Director User Guide/Configuration_9_450x180.png" style="width: 450;height: 180;">
+                                            </img>
+                                        </p>
+                                        <p>From here, you can shut down each process and start it again. This may be useful if one process is stuck or has a problem, or if a new update is available for that process, you can shut down one process without interfering with other processes and do the update.</p>
+                                        <h2><a name="Process"></a>Process live debugging</h2>
+                                        <p>To get a live debugging stream from a process running within Data Director, click the <b>Open </b>button for the process you want to debug. There are a few processes running behind one Data Director Setup and you can debug every one of them. To be able to connect, you need to have direct access to the host where the DD is running and also be a valid user, because this connection uses only TCPS mode and does go directly to the process socket port, not via general incoming Data port.</p>
+                                        <p>The Data Director processes are:</p>
+                                        <table>
+                                            <col style="width: 250px;">
+                                            </col>
+                                            <col>
+                                            </col>
+                                            <tr>
+                                                <th>Process</th>
+                                                <th>Description</th>
+                                            </tr>
+                                            <tr>
+                                                <td><b>Service</b>
+                                                </td>
+                                                <td>Main Data Director Service application. This is what you have in Windows services and it takes care of keeping other processes alive.</td>
+                                            </tr>
+                                            <tr>
+                                                <td><b>Router</b>
+                                                </td>
+                                                <td>The heart of the Data Director. Takes care of routing jobs to correct DD processes and other DD hosts.</td>
+                                            </tr>
+                                            <tr>
+                                                <td><b>Database</b>
+                                                </td>
+                                                <td>Handles all Database communications.</td>
+                                            </tr>
+                                            <tr>
+                                                <td><b>DD Old</b>
+                                                </td>
+                                                <td>Support for communication with older DD. Converts the old DD2 protocol to the new DD3 protocol and handles all incoming and outgoing data transfer from and to old DD2.</td>
+                                            </tr>
+                                            <tr>
+                                                <td><b>Scheduler</b>
+                                                </td>
+                                                <td>Scheduler Service that process Jobs to be sent to Data Director.</td>
+                                            </tr>
+                                            <tr>
+                                                <td><b>Offline</b>
+                                                </td>
+                                                <td>Pulls main DD Host for new jobs and monitors incoming folder for manual transfer jobs.</td>
+                                            </tr>
+                                            <tr>
+                                                <td><b>Backup</b>
+                                                </td>
+                                                <td>Monitor Collection Service that generates jobs with DD Job Data.</td>
+                                            </tr>
+                                            <tr>
+                                                <td><b>WebSrv</b>
+                                                </td>
+                                                <td>Handles <span class="GeneralLSCentral_Mini">LS&#160;Central</span> WS communications.</td>
+                                            </tr>
+                                        </table>
+                                        <p>
+                                            <img src="../../Resources/Images/LS Data Director User Guide/Configuration_10_700x106.png" style="width: 700;height: 106;">
+                                            </img>
+                                        </p>
+                                        <table>
+                                            <col style="width: 250px;">
+                                            </col>
+                                            <col>
+                                            </col>
+                                            <tr>
+                                                <th>Field</th>
+                                                <th>Description</th>
+                                            </tr>
+                                            <tr>
+                                                <td><b>Log to File on Host</b>
+                                                </td>
+                                                <td>This will activate File Debugging on the host where DD is running. If the check box is left selected after you disconnect from the DD Process, debugging will continue logging into the file.</td>
+                                            </tr>
+                                            <tr>
+                                                <td><b>Max Lines</b>
+                                                </td>
+                                                <td>Maximum number of debug lines that Live debugging will show.</td>
+                                            </tr>
+                                            <tr>
+                                                <td><b>Clear</b>
+                                                </td>
+                                                <td>Clear Debug stream window.</td>
+                                            </tr>
+                                            <tr>
+                                                <td><b>Save</b>
+                                                </td>
+                                                <td>Save data in Debug stream window to file on local host. You can also select debug lines from the Debug stream window and press <b>Ctrl+C</b> to copy them to the clipboard so you can pass them into other applications, such as email or notepad.</td>
+                                            </tr>
+                                            <tr>
+                                                <td><b>Connect</b>
+                                                </td>
+                                                <td>Connect to DD Process and start Debugging.</td>
+                                            </tr>
+                                        </table>
+                                        <h2><a name="Debug"></a>Debug levels </h2>
+                                        <table>
+                                            <col style="width: 250px;">
+                                            </col>
+                                            <col>
+                                            </col>
+                                            <tr>
+                                                <th>&#160;</th>
+                                                <th>Description</th>
+                                            </tr>
+                                            <tr>
+                                                <td><b>Error</b>
+                                                </td>
+                                                <td>Logs all Error Messages.</td>
+                                            </tr>
+                                            <tr>
+                                                <td><b>Warning</b>
+                                                </td>
+                                                <td>Logs Warning Messages, these are errors that are not something that will affect the health of the system.</td>
+                                            </tr>
+                                            <tr>
+                                                <td><b>Main</b>
+                                                </td>
+                                                <td>Logs Main Activity Messages, useful to see what they system is doing.</td>
+                                            </tr>
+                                            <tr>
+                                                <td><b>Tick</b>
+                                                </td>
+                                                <td>Heart beat check. <p class="p_table"><b>Note:</b> This generates extreme amount of data and should only be used to check if application is locked up or actually doing something. <b>Never use this for file debug level</b>.
+                    </p></td>
+                                            </tr>
+                                            <tr>
+                                                <td><b>Detail Level 1</b>
+                                                </td>
+                                                <td>Logs Activity Messages in more detail, useful to look at to see what the system is doing and provides more detailed information than Main level does.</td>
+                                            </tr>
+                                            <tr>
+                                                <td><b>Detail Level 2</b>
+                                                </td>
+                                                <td>Logs Activity Messages in even more detail.</td>
+                                            </tr>
+                                        </table>
+                                        <p><b>Note:</b> When debugging Database process and you have CFront mode activated under <b>App Config</b>, you will get 2 or more windows when you click the<b> Debug Database</b> button. <br />The first 2 windows will have port <i>16803</i> and <i>16811</i> (depends on what the base port is set to, default is <i>16800</i>). </p>
+                                        <ul>
+                                            <li value="1"><i>16803 </i>processes is for general database processing for all other databases than the one using CFront. </li>
+                                            <li value="2"><i>16811</i> is for CFront processing and if <b>Data Thread Limit</b> is set to a higher value than <i>1</i>, you will get more windows counting up from 16811. Each of those is for CFront processing and when DD sends a job to processing, it will send the job round robin between these processes, unless one of them is already busy. If they are all busy, DD starts sending to all again.</li>
+                                        </ul>
+                                        <p>&#160;</p>
+                                        <p data-mc-conditions="Default.NotPrint">&#160;</p>
+                                    </div>
+                                    <div id="footer" class="ls-nav-footer">
+                                        <hr width="100%" size="0" align="center" />
+                                        <p>© <span class="VariablesCurrentYear">2021</span> LS Retail ehf. All rights reserved.  </p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div><a data-close="true"></a>
+                </div>
+            </div>
+        </div>
+    </body>
+</html>

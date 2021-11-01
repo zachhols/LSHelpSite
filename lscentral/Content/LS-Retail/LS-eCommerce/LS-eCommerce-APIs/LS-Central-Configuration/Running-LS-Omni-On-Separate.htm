@@ -1,0 +1,246 @@
+<!DOCTYPE html>
+<html xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" lang="en-us" xml:lang="en-us" class="_Skins_HTML5___Side_Navigation" data-mc-search-type="Stem" data-mc-help-system-file-name="Default.xml" data-mc-path-to-help-system="../../../../../" data-mc-has-content-body="True" data-mc-target-type="WebHelp2" data-mc-runtime-file-type="Topic;Default" data-mc-preload-images="false" data-mc-in-preview-mode="false" data-mc-toc-path="Retail|[%=System.LinkedTitle%]|LS Central Configuration">
+    <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <meta charset="utf-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+        <meta name="msapplication-config" content="../../../../../Skins/Favicons/browserconfig.xml" />
+        <link rel="apple-touch-icon" sizes="180x180" href="../../../../../Skins/Favicons/apple-touch-icon.png" />
+        <link rel="shortcut icon" href="../../../../../Skins/Favicons/favicon-32x32.png" />
+        <link rel="icon" sizes="96x96" href="../../../../../Skins/Favicons/favicon-96x96.png" />
+        <link rel="icon" sizes="32x32" href="../../../../../Skins/Favicons/favicon-32x32.png" />
+        <link rel="icon" sizes="16x16" href="../../../../../Skins/Favicons/favicon-16x16.png" /><title>Running LS&#160;Commerce Service on a Separate LS&#160;Central Database</title>
+        <link rel="shortcut icon" href="/Content/Resources/Images/favicon.ico" />
+        <link href="../../../../../Skins/Default/Stylesheets/Slideshow.css" rel="stylesheet" />
+        <link href="../../../../../Skins/Default/Stylesheets/TextEffects.css" rel="stylesheet" />
+        <link href="../../../../../Skins/Default/Stylesheets/Topic.css" rel="stylesheet" />
+        <link href="../../../../../Skins/Default/Stylesheets/Components/Styles.css" rel="stylesheet" />
+        <link href="../../../../../Skins/Default/Stylesheets/Components/Tablet.css" rel="stylesheet" />
+        <link href="../../../../../Skins/Default/Stylesheets/Components/Mobile.css" rel="stylesheet" />
+        <link href="../../../../../Skins/Fluid/Stylesheets/foundation.6.2.3.css" rel="stylesheet" />
+        <link href="../../../../../Skins/Fluid/Stylesheets/Styles.css" rel="stylesheet" />
+        <link href="../../../../../Skins/Fluid/Stylesheets/Tablet.css" rel="stylesheet" />
+        <link href="../../../../../Skins/Fluid/Stylesheets/Mobile.css" rel="stylesheet" />
+        <link href="../../../../Resources/Stylesheets/LSNav.css" rel="stylesheet" />
+        <script src="../../../../../Resources/Scripts/jquery.min.js">
+        </script>
+        <script src="../../../../../Resources/Scripts/require.min.js" defer="defer">
+        </script>
+        <script src="../../../../../Resources/Scripts/require.config.js" defer="defer">
+        </script>
+        <script src="../../../../../Resources/Scripts/foundation.6.2.3_custom.js" defer="defer">
+        </script>
+        <script src="../../../../../Resources/Scripts/plugins.min.js" defer="defer">
+        </script>
+        <script src="../../../../../Resources/Scripts/MadCapAll.js" defer="defer">
+        </script>
+        <script src="../../../../Resources/Javascripts/Scroll-Button.js" defer="defer">
+        </script>
+    </head>
+    <body>
+        <div class="foundation-wrap off-canvas-wrapper">
+            <div class="off-canvas-wrapper-inner" data-off-canvas-wrapper="">
+                <aside class="off-canvas position-right" role="navigation" id="offCanvas" data-off-canvas="" data-position="right" data-mc-ignore="true">
+                    <ul class="off-canvas-accordion vertical menu off-canvas-list" data-accordion-menu="" data-mc-back-link="Back" data-mc-css-tree-node-expanded="is-accordion-submenu-parent" data-mc-css-tree-node-collapsed="is-accordion-submenu-parent" data-mc-css-sub-menu="vertical menu is-accordion-submenu nested" data-mc-include-indicator="False" data-mc-include-icon="False" data-mc-include-parent-link="True" data-mc-include-back="False" data-mc-defer-expand-event="True" data-mc-expand-event="click.zf.accordionMenu" data-mc-toc="True">
+                    </ul>
+                </aside>
+                <div class="off-canvas-content inner-wrap" data-off-canvas-content="">
+                    <div data-sticky-container="" class="title-bar-container">
+                        <nav class="title-bar tab-bar sticky" data-sticky="" data-options="marginTop:0" style="width:100%" data-sticky-on="only screen and (max-width: 1279px)" data-mc-ignore="true"><a class="skip-to-content fluid-skip showOnFocus" href="#">Skip To Main Content</a>
+                            <div class="middle title-bar-section outer-row clearfix">
+                                <div class="menu-icon-container relative clearfix">
+                                    <div class="central-dropdown" style="display:none;" id="#centralSmallScreen"><a class="central-account-drop"><span class="central-account-image"></span><span class="central-account-text">Account</span></a>
+                                        <div class="central-dropdown-content"><a class="MCCentralLink central-dropdown-content-settings">Settings</a>
+                                            <hr class="central-separator" /><a class="MCCentralLink central-dropdown-content-logout">Logout</a>
+                                        </div>
+                                    </div>
+                                    <button class="menu-icon" aria-label="Show Navigation Panel" data-toggle="offCanvas"><span></span>
+                                    </button>
+                                </div>
+                            </div>
+                            <div class="title-bar-layout outer-row">
+                                <div class="logo-wrapper"><a class="logo" href="../../../../home.html" title="LS Central Help" alt="Logo"></a>
+                                </div>
+                                <div class="navigation-wrapper nocontent">
+                                    <ul class="navigation clearfix" data-mc-css-tree-node-has-children="has-children" data-mc-css-sub-menu="sub-menu" data-mc-expand-event="mouseenter" data-mc-top-nav-menu="True" data-mc-max-depth="3" data-mc-include-icon="False" data-mc-include-indicator="False" data-mc-include-children="True" data-mc-include-siblings="True" data-mc-include-parent="True" data-mc-toc="True">
+                                        <li class="placeholder" style="visibility:hidden"><a>placeholder</a>
+                                        </li>
+                                    </ul>
+                                    <div class="central-dropdown" style="display:none;" id="#centralTop"><a class="central-account-drop"><span class="central-account-image"></span><span class="central-account-text">Account</span></a>
+                                        <div class="central-dropdown-content"><a class="MCCentralLink central-dropdown-content-settings">Settings</a>
+                                            <hr class="central-separator" /><a class="MCCentralLink central-dropdown-content-logout">Logout</a>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="nav-search-wrapper">
+                                    <div class="nav-search row">
+                                        <form class="search" action="#">
+                                            <div class="search-bar search-bar-container needs-pie">
+                                                <input class="search-field needs-pie" type="search" aria-label="Search Field" placeholder="Search" />
+                                                <div class="search-filter-wrapper"><span class="invisible-label" id="search-filters-label">Filter: </span>
+                                                    <div class="search-filter" aria-haspopup="true" aria-controls="sf-content" aria-expanded="false" aria-label="Search Filter" title="All Files" role="button" tabindex="0">
+                                                    </div>
+                                                    <div class="search-filter-content" id="sf-content">
+                                                        <ul>
+                                                            <li>
+                                                                <button class="mc-dropdown-item" aria-labelledby="search-filters-label filterSelectorLabel-00001"><span id="filterSelectorLabel-00001">All Files</span>
+                                                                </button>
+                                                            </li>
+                                                        </ul>
+                                                    </div>
+                                                </div>
+                                                <div class="search-submit-wrapper" dir="ltr">
+                                                    <div class="search-submit" title="Search" role="button" tabindex="0"><span class="invisible-label">Submit Search</span>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </form>
+                                    </div>
+                                    <div class="central-dropdown" style="display:none;"><a class="central-account-drop"><span class="central-account-image"></span><span class="central-account-text">Account</span></a>
+                                        <div class="central-dropdown-content"><a class="MCCentralLink central-dropdown-content-settings">Settings</a>
+                                            <hr class="central-separator" /><a class="MCCentralLink central-dropdown-content-logout">Logout</a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </nav>
+                    </div>
+                    <div class="main-section">
+                        <div class="row outer-row sidenav-layout">
+                            <nav class="sidenav-wrapper">
+                                <div class="sidenav-container">
+                                    <ul class="off-canvas-accordion vertical menu sidenav" data-accordion-menu="" data-mc-css-tree-node-expanded="is-accordion-submenu-parent" data-mc-css-tree-node-collapsed="is-accordion-submenu-parent" data-mc-css-sub-menu="vertical menu accordion-menu is-accordion-submenu nested" data-mc-include-indicator="False" data-mc-include-icon="False" data-mc-include-parent-link="False" data-mc-include-back="False" data-mc-defer-expand-event="True" data-mc-expand-event="click.zf.accordionMenu" data-mc-toc="True" data-mc-side-nav-menu="True">
+                                    </ul>
+                                </div>
+                            </nav>
+                            <div class="body-container">
+                                <div data-mc-content-body="True">
+                                    <MadCap:conditionalText data-mc-conditions="Default.GoogleAnalytics">
+                                        <script>/* <![CDATA[ */
+				(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+				(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+				m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+				})(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+			
+				ga('create', 'UA-58791693-4', 'auto');
+			
+				var file = document.location.href; 
+				file = file.substring(0, (file.indexOf("#") == -1) ? file.length : file.indexOf("#"));
+				file = file.substring(0, (file.indexOf("?") == -1) ? file.length : file.indexOf("?"));
+				file = file.substring(file.lastIndexOf("/") + 1, file.length);
+ 
+				if (file === 'Search.htm') 
+				{
+					var newPath = document.location.pathname + document.location.search + document.location.hash;
+					newPath = newPath.replace(/#/, '?');
+					newPath = newPath.replace(/search\-/, 'q=');
+					ga('set', 'page', newPath);
+				
+					function locationHashChanged()
+					{
+						newPath = document.location.pathname + document.location.search + document.location.hash;
+						newPath = newPath.replace(/#/, '?');
+						newPath = newPath.replace(/search\-/, 'q=');
+						ga('set', 'page', newPath);
+						ga('send', 'pageview');
+					}
+				
+					if(window.HashChangeEvent)
+					{
+						window.onhashchange = locationHashChanged;
+					}
+				}
+				ga('send', 'pageview');
+			/* ]]> */</script>
+                                    </MadCap:conditionalText>
+                                    <div class="nocontent">
+                                        <div class="MCBreadcrumbsBox_0 breadcrumbs" role="navigation" aria-label="Breadcrumbs" data-mc-breadcrumbs-divider=" &gt; " data-mc-breadcrumbs-count="3" data-mc-toc="True"><span class="MCBreadcrumbsPrefix">You are here: </span>
+                                        </div>
+                                    </div>
+                                    <p>&#160;</p>
+                                    <div role="main" id="mc-main-content">
+                                        <h1><a name="aanchor12266"></a>
+                                            <MadCap:concept term="Retail" />Running <span class="GeneralLSCommerce">LS&#160;Commerce</span> Service on a Separate <span class="GeneralLSCentral_Mini">LS&#160;Central</span> Database</h1>
+                                        <p>By default, <span class="GeneralLSCommerce">LS&#160;Commerce</span> Service will tie to the main <span class="GeneralLSCentral_Mini">LS&#160;Central</span> Database after installation. If the setup requires <span class="GeneralLSCommerce">LS&#160;Commerce</span> Service to run on a different <span class="GeneralLSCentral_Mini">LS&#160;Central</span> Database, a replication from the main database is needed.</p>
+                                        <p>The default jobs that are available already in the <span class="GeneralLSCentral_Mini">LS&#160;Central</span> Demo company can be used to replicate data to the <span class="GeneralLSCentral_Mini">LS&#160;Central</span> Database used for <span class="GeneralLSCommerce">LS&#160;Commerce</span> Service, just as if it were one of the stores or POSs. There are a few extra tables that need to be added to those jobs, both for Normal and Action replication.</p>
+                                        <p><b>To prepare data the first time</b>
+                                        </p>
+                                        <ul>
+                                            <li value="1">POS32-ALL</li>
+                                            <li value="2">POSINFO</li>
+                                        </ul>
+                                        <p><b>For regular data update</b>
+                                        </p>
+                                        <ul>
+                                            <li value="1">CONFIGS</li>
+                                            <li value="2">DISCOUNT</li>
+                                            <li value="3">ITEMS</li>
+                                            <li value="4">STOREINF</li>
+                                        </ul>
+                                        <p>These tables need to be created as SubJobs and added to either existing jobs or to a new job:</p>
+                                        <p><b>MPOS</b>
+                                        </p>
+                                        <table style="width: 100%;">
+                                            <col style="width: 301px;" />
+                                            <col />
+                                            <tbody>
+                                                <tr>
+                                                    <td>23<p class="p_table">98</p><p class="p_table">10000704</p><p class="p_table">10000782</p><p class="p_table">10001303</p><p class="p_table">10001404</p><p class="p_table">10012860</p><p class="p_table">10012866</p><p class="p_table">99009045</p><p class="p_table">99009047</p><p class="p_table">99009049</p></td>
+                                                    <td>Vendor<p class="p_table">General Ledger Setup</p><p class="p_table">Item Distribution</p><p class="p_table">Store Group Setup</p><p class="p_table">Inventory Masks</p><p class="p_table">Item Status Link</p><p class="p_table">WI Setup</p><p class="p_table">WI Store</p><p class="p_table">Member Login</p><p class="p_table">Member Login Device</p><p class="p_table">Member Login Card</p></td>
+                                                </tr>
+                                            </tbody>
+                                        </table>
+                                        <p><b>INV</b>
+                                        </p>
+                                        <table style="width: 100%;">
+                                            <col style="width: 301px;" />
+                                            <col />
+                                            <tbody>
+                                                <tr>
+                                                    <td>10001322<p class="p_table">10012800</p><p class="p_table">10012801</p><p class="p_table">10012806</p><p class="p_table">10012808</p></td>
+                                                    <td>Counting - Area<p class="p_table">Inventory Menus</p><p class="p_table">Inventory Menu Lines</p><p class="p_table">Inventory Terminal-Store</p><p class="p_table">Inventory Location List</p></td>
+                                                </tr>
+                                            </tbody>
+                                        </table>
+                                        <p>As prices are generated with the COMMERCE_INIT and COMMERCE_UPDATE jobs, these jobs need to be able to run on the remote database as well to generate same data there. It also possible to create SubJobs for <b>WI Prices</b>, <b>WI Discount</b>, <b>WI Mix &amp; Match Offer</b>, and <b>Mobile Store Opening Hours</b> tables and add to sub job to the primary jobs that will be used to replicate data to the Remote database.</p>
+                                        <p>When <span class="GeneralLSCentral_Mini">LS&#160;Central</span> data has been replicated and prepared for <span class="GeneralLSCommerce">LS&#160;Commerce</span> Service, you must change a configuration setting in the <i>AppSettings.config </i>file (C:\LS Retail\LSCommerce\ LSCommerceService).Commerce</p>
+                                        <p>This section points to the main <span class="GeneralLSCentral_Mini">LS&#160;Central</span> Web Service at HO:</p>
+                                        <p>
+                                            <img src="../../../../Resources/Images/LS eCommerce API/Running Omni on Separate_550x97.png" style="width: 550;height: 97;" />
+                                        </p>
+                                        <p>Set this value to false to tell the <span class="GeneralLSCommerce">LS&#160;Commerce</span> Service that it is not running at HO:</p>
+                                        <p>
+                                            <img src="../../../../Resources/Images/LS eCommerce API/Running Omni on Separate_2_550x33.png" style="width: 550;height: 33;" />
+                                        </p>
+                                        <p>This should point to the <span class="GeneralLSCentral_Mini">LS&#160;Central</span> remote database that <span class="GeneralLSCommerce">LS&#160;Commerce</span> Service should connect to:</p>
+                                        <p>
+                                            <img src="../../../../Resources/Images/LS eCommerce API/Running Omni on Separate_3_700x72.png" style="width: 700;height: 72;" />
+                                        </p>
+                                        <p><span class="GeneralLSCommerce">LS&#160;Commerce</span> Service does only do Select when accessing the <span class="GeneralLSCentral_Mini">LS&#160;Central</span> tables directly. All updates are done via <span class="GeneralLSCentral_Mini">LS&#160;Central</span> Web Services. These are the <span class="GeneralLSCentral_Mini">LS&#160;Central</span> tables that are used by <span class="GeneralLSCommerce">LS&#160;Commerce</span> Service:</p>
+                                        <table style="width: 100%;">
+                                            <col style="width: 301px;" />
+                                            <col />
+                                            <tbody>
+                                                <tr>
+                                                    <td>[COMPANYNAME$Attribute]<p class="p_table">[COMPANYNAME$Attribute Option Value]</p><p class="p_table">[COMPANYNAME$Attribute Value]</p><p class="p_table">[COMPANYNAME$Barcodes]</p><p class="p_table">[COMPANYNAME$Barcode Mask Segment]</p><p class="p_table">[COMPANYNAME$Barcode Mask]</p><p class="p_table">[COMPANYNAME$Code128 GS1 Setup]</p><p class="p_table">[COMPANYNAME$Counting - Area]</p><p class="p_table">[COMPANYNAME$Country_Region]</p><p class="p_table">[COMPANYNAME$Currency]</p><p class="p_table">[COMPANYNAME$Currency Exchange Rate]</p><p class="p_table">[COMPANYNAME$Customer]</p><p class="p_table">[COMPANYNAME$Customer Price Group]</p><p class="p_table">[COMPANYNAME$Customer Order Header]</p><p class="p_table">[COMPANYNAME$Customer Order Line]</p><p class="p_table">[COMPANYNAME$Customer Order Payment]</p><p class="p_table">[COMPANYNAME$Data Translation]</p><p class="p_table">[COMPANYNAME$Dining Area Profile]</p><p class="p_table">[COMPANYNAME$Extended Variant Values]</p><p class="p_table">[COMPANYNAME$General Ledger Setup]</p><p class="p_table">[COMPANYNAME$HMP Action]</p><p class="p_table">[COMPANYNAME$HMP Dining Tbl_ Main Status]</p><p class="p_table">[COMPANYNAME$HMP Status Action Set]</p><p class="p_table">[COMPANYNAME$HMP Status Action Set Line]</p><p class="p_table">[COMPANYNAME$HMP Status Color Set]</p><p class="p_table">[COMPANYNAME$HMP Status Color Set Line]</p><p class="p_table">[COMPANYNAME$Hosp_ Standard Text]</p><p class="p_table">[COMPANYNAME$Hospitality Type]</p><p class="p_table">[COMPANYNAME$Inventory Location List]</p><p class="p_table">[COMPANYNAME$Inventory Masks]</p><p class="p_table">[COMPANYNAME$Inventory Menu Lines]</p><p class="p_table">[COMPANYNAME$Inventory Menus]</p><p class="p_table">[COMPANYNAME$Inventory Terminal-Store]</p><p class="p_table">[COMPANYNAME$Item]</p><p class="p_table">[COMPANYNAME$Item Category]</p><p class="p_table">[COMPANYNAME$Item Distribution]</p><p class="p_table">[COMPANYNAME$Item HTML]</p><p class="p_table">[COMPANYNAME$Item Status Link]</p><p class="p_table">[COMPANYNAME$Item Unit of Measure]</p><p class="p_table">[COMPANYNAME$Item Variant Registration]</p><p class="p_table">[COMPANYNAME$Item Variant]</p><p class="p_table">[COMPANYNAME$Location]</p><p class="p_table">[COMPANYNAME$Member Account]</p><p class="p_table">[COMPANYNAME$Member Attribute]</p><p class="p_table">[COMPANYNAME$Member Attribute Setup]</p><p class="p_table">[COMPANYNAME$Member Club]</p><p class="p_table">[COMPANYNAME$Member Contact]</p><p class="p_table">[COMPANYNAME$Member Device]</p><p class="p_table">[COMPANYNAME$Member Login]</p><p class="p_table">[COMPANYNAME$Member Login Card]</p><p class="p_table">[COMPANYNAME$Member Login Device]</p></td>
+                                                    <td>[COMPANYNAME$Member Management Setup]<p class="p_table">[COMPANYNAME$Member Notification]</p><p class="p_table">[COMPANYNAME$Member Notification Log]</p><p class="p_table">[COMPANYNAME$Member Point Entry]</p><p class="p_table">[COMPANYNAME$Member Process Order Entry]</p><p class="p_table">[COMPANYNAME$Member Scheme]</p><p class="p_table">[COMPANYNAME$Membership Card]</p><p class="p_table">[COMPANYNAME$Mobile Store Opening Hours]</p><p class="p_table">[COMPANYNAME$MobileItemHTML]</p><p class="p_table">[COMPANYNAME$MobileLicenseRegistration]</p><p class="p_table">[COMPANYNAME$Offer]</p><p class="p_table">[COMPANYNAME$Posted Customer Order Header]</p><p class="p_table">[COMPANYNAME$Posted Customer Order Line]</p><p class="p_table">[COMPANYNAME$POS Button Parameters]</p><p class="p_table">[COMPANYNAME$POS Card Entry]</p><p class="p_table">[COMPANYNAME$POS Menu Line]</p><p class="p_table">[COMPANYNAME$POS Terminal]</p><p class="p_table">[COMPANYNAME$Preaction]</p><p class="p_table">[COMPANYNAME$Product Group]</p><p class="p_table">[COMPANYNAME$Published Offer]</p><p class="p_table">[COMPANYNAME$Published Offer Detail Line]</p><p class="p_table">[COMPANYNAME$Restaurant Menu Type]</p><p class="p_table">[COMPANYNAME$Retail Image]</p><p class="p_table">[COMPANYNAME$Retail Image Link]</p><p class="p_table">[COMPANYNAME$Retail Setup]</p><p class="p_table">[COMPANYNAME$Sales Header]</p><p class="p_table">[COMPANYNAME$Sales Line]</p><p class="p_table">[COMPANYNAME$Sales Price]</p><p class="p_table">[COMPANYNAME$Shipping Agent]</p><p class="p_table">[COMPANYNAME$Shipping Agent Services]</p><p class="p_table">[COMPANYNAME$Staff]</p><p class="p_table">[COMPANYNAME$Staff Store Link]</p><p class="p_table">[COMPANYNAME$Store]</p><p class="p_table">[COMPANYNAME$Store Group Setup]</p><p class="p_table">[COMPANYNAME$Store Price Group]</p><p class="p_table">[COMPANYNAME$Tender Type]</p><p class="p_table">[COMPANYNAME$Tender Type Currency Setup]</p><p class="p_table">[COMPANYNAME$Tender Type Setup]</p><p class="p_table">[COMPANYNAME$Trans_ Payment Entry]</p><p class="p_table">[COMPANYNAME$Trans_ Sales Entry]</p><p class="p_table">[COMPANYNAME$Transaction Header]</p><p class="p_table">[COMPANYNAME$Unit of Measure]</p><p class="p_table">[COMPANYNAME$VAT Posting Setup]</p><p class="p_table">[COMPANYNAME$Validation Period]</p><p class="p_table">[COMPANYNAME$Vendor]</p><p class="p_table">[COMPANYNAME$WI Discounts]</p><p class="p_table">[COMPANYNAME$WI Price]</p><p class="p_table">[COMPANYNAME$WI Setup]</p><p class="p_table">[COMPANYNAME$WI Store]</p></td>
+                                                </tr>
+                                            </tbody>
+                                        </table>
+                                        <p>&#160;</p>
+                                        <p data-mc-conditions="Default.NotPrint">&#160;</p>
+                                    </div>
+                                    <div id="footer" class="ls-nav-footer">
+                                        <hr width="100%" size="0" align="center" />
+                                        <p>© <span class="VariablesCurrentYear">2021</span> LS Retail ehf. All rights reserved.  </p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div><a data-close="true"></a>
+                </div>
+            </div>
+        </div>
+    </body>
+</html>

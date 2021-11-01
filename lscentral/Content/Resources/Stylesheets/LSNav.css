@@ -1,0 +1,970 @@
+@namespace MadCap url(http://www.madcapsoftware.com/Schemas/MadCap.xsd);
+/*<meta />*/
+
+/*<meta sourceDocument="C:\Users\larah\OneDrive - LS Retail\LS Omni Docs\LS Omni Mobile Inventory User and Setup Guide.docx" />*/
+
+@font-face 
+{
+	font-family: 'Source Sans Pro';
+	src: url(../Fonts/SourceSansPro/SourceSansPro-Regular.ttf);
+}
+
+img
+{
+	border: none;
+}
+
+p
+{
+	font-family: 'Source Sans Pro', sans-serif;
+	font-size: 11.0pt;
+	color: #242d2f;
+	letter-spacing: 1px;
+}
+
+body
+{
+	color: #000000;
+	font-family: 'Source Sans Pro', sans-serif;
+	max-width: 1220px;
+	padding-left: 12px;
+	padding-right: 12px;
+	font-size: 10pt;
+}
+
+h1
+{
+	font-weight: normal;
+	page-break-before: always;
+	color: #262626;
+	font-family: 'Source Sans Pro', sans-serif;
+	font-size: 32pt;
+	margin: .40em 0;
+	margin-top: .40em;
+}
+
+h2
+{
+	font-style: normal;
+	color: #262626;
+	font-family: 'Source Sans Pro', sans-serif;
+	font-size: 18pt;
+	margin-bottom: 8pt;
+	font-weight: normal;
+	margin-top: 14pt;
+}
+
+table
+{
+	border-collapse: collapse;
+	width: 99%;
+	text-align: left;
+}
+
+td,
+th
+{
+	padding-top: 10px;
+	padding-right: 8px;
+	padding-bottom: 10px;
+	padding-left: 8px;
+	margin-top: 10px;
+	margin-right: 10px;
+	margin-bottom: 10px;
+	margin-left: 10px;
+	border: 1px;
+	vertical-align: top;
+	border-style: solid;
+	border-width: 1px;
+	border-color: #bbb;
+}
+
+blockquote
+{
+	margin-bottom: 1.12em;
+	margin-top: 1.12em;
+	background-color: #f5f5f5;
+	padding-left: 15px;
+	padding-right: 5px;
+	padding-top: 13px;
+	padding-bottom: 13px;
+}
+
+blockquote p
+{
+	margin: 0px;
+}
+
+pre
+{
+	margin-bottom: 1.12em;
+	margin-top: 1.12em;
+	margin-right: 40px;
+	margin-left: 40px;
+	padding-left: 15px;
+	padding-right: 5px;
+	padding-top: 13px;
+	padding-bottom: 13px;
+	background-color: #f5f5f5;
+}
+
+MadCap|xref
+{
+	mc-format: '{paratext}';
+}
+
+MadCap|xref.ParaTextOnly
+{
+	mc-format: '{quote}{paratext}{quote}';
+}
+
+span.span_1
+{
+	font-weight: bold;
+}
+
+span.span_4
+{
+	font-style: italic;
+}
+
+MadCap|dropDownHead
+{
+	font-weight: bold;
+	font-style: normal;
+	font-size: 1.26em;
+}
+
+th
+{
+	font-size: 11pt;
+	text-align: left;
+	padding-left: 15px;
+	margin-left: 15px;
+	margin-right: 15px;
+	border-bottom: solid 1px #d3d3d3;
+	border-color: #d3d3d3;
+	border-left: none 0px #000000;
+	border-right: none 0px #000000;
+	border-style: none none solid;
+	border-top: none 0px #000000;
+}
+
+li
+{
+	font-size: 11pt;
+	font-family: 'Source Sans Pro', sans-serif;
+	letter-spacing: 1px;
+	margin-top: 0.3em;
+}
+
+h3
+{
+	color: #262626;
+	font-family: 'Source Sans Pro', sans-serif;
+	font-size: 14pt;
+	font-weight: normal;
+}
+
+h4
+{
+	color: #262626;
+	font-family: 'Source Sans Pro', sans-serif;
+	font-size: 12pt;
+	font-weight: bold;
+	margin-bottom: 3pt;
+	margin-top: 12pt;
+}
+
+h5
+{
+	color: #262626;
+	font-family: 'Source Sans Pro', sans-serif;
+	font-size: 11pt;
+	font-weight: bold;
+	margin-bottom: 3pt;
+	margin-top: 12pt;
+}
+
+h6
+{
+	color: #262626;
+	font-family: 'Source Sans Pro', sans-serif;
+	font-size: 8.0pt;
+	font-weight: bold;
+	margin-bottom: 3pt;
+	margin-top: 12pt;
+}
+
+ol
+{
+	font-family: 'Source Sans Pro', sans-serif;
+	font-size: 11pt;
+	letter-spacing: 1px;
+}
+
+ul
+{
+	font-family: 'Source Sans Pro', sans-serif;
+	font-size: 11pt;
+	letter-spacing: 1px;
+}
+
+td
+{
+	letter-spacing: 1px;
+	font-size: 10pt;
+	margin-left: 15px;
+	margin-right: 15px;
+	padding-left: 15px;
+	border-bottom: solid 1px #d3d3d3;
+	border-color: #d3d3d3;
+	border-left: none 0px #000000;
+	border-right: none 0px #000000;
+	border-style: none none solid;
+	bottom: 1px;
+	border-top: solid 1px #d3d3d3;
+	border-width: 1px 0px;
+	text-align: left;
+}
+
+@media print
+{
+	MadCap|xref
+	{
+		mc-format: '{paratext} {pageref}';
+	}
+
+	img
+	{
+		max-height: auto;
+		max-width: 550px;
+		border-left-style: none;
+		border-right-style: none;
+		border-top-style: none;
+		border-bottom-style: none;
+	}
+
+	h1
+	{
+		page-break-before: always;
+	}
+
+	h1.title
+	{
+		mc-heading-level: 0;
+	}
+
+	h2.RelNotes
+	{
+		margin: 2.00em 0;
+		margin-top: 2.50em;
+		margin-bottom: 0.1em;
+		mc-toc-depth: 5;
+		mc-heading-level: 4;
+	}
+
+	p.Title1
+	{
+		font-size: 3.5em;
+		font-weight: normal;
+		margin-top: .67em;
+	}
+
+	p.ContentHeading
+	{
+		font-size: 3.5em;
+		font-weight: normal;
+		margin: .67em 0;
+	}
+
+	p.Title3
+	{
+		font-size: 9pt;
+	}
+
+	h2.RelNotes-2
+	{
+		mc-heading-level: 4;
+	}
+
+	MadCap|tocProxy
+	{
+		mc-toc-depth: 4;
+		mc-heading-level: 5;
+		border-top-style: none;
+	}
+
+	p.TOC5
+	{
+		
+	}
+
+	h3
+	{
+		mc-heading-level: 3;
+		margin-top: 1.0em;
+	}
+
+	h3.RelNotes
+	{
+		mc-heading-level: 5;
+		margin-bottom: 0;
+		margin-top: 1.5em;
+	}
+
+	h3.RelNotes-2
+	{
+		mc-heading-level: 5;
+	}
+
+	table
+	{
+		mc-caption-repeat: true;
+		mc-caption-continuation: '(continued)';
+	}
+
+	p.TOC2
+	{
+		font-weight: bold;
+	}
+
+	p.TOC1
+	{
+		font-size: 11pt;
+	}
+
+	h2.RelNotesProdGroup
+	{
+		mc-heading-level: 3;
+	}
+
+	h4
+	{
+		mc-heading-level: 5;
+	}
+
+	h5
+	{
+		mc-heading-level: 6;
+	}
+
+	h6
+	{
+		mc-heading-level: 7;
+	}
+
+	p.TOC3
+	{
+		font-weight: bold;
+	}
+
+	h4.RelNotes
+	{
+		mc-heading-level: 6;
+	}
+
+	h4.RelNotes-2
+	{
+		mc-heading-level: 6;
+	}
+}
+
+img.images
+{
+	border-left-style: solid;
+	border-left-color: #add8e6;
+	border-right-style: solid;
+	border-right-color: #add8e6;
+	border-top-style: solid;
+	border-top-color: #add8e6;
+	border-bottom-style: solid;
+	border-bottom-color: #add8e6;
+	border-bottom-width: 1px;
+	border-left-width: 1px;
+	border-right-width: 1px;
+	border-top-width: 1px;
+}
+
+ul.List2
+{
+	
+}
+
+table.filtertable
+{
+	
+}
+
+div.floatright
+{
+	
+}
+
+div.sideContent
+{
+	float: right;
+	margin-left: 10px;
+	margin-bottom: 10px;
+	width: 33.33%;
+	background: solid;
+	padding-top: 0px;
+	margin-top: 25px;
+}
+
+h2.RelNotes	/*Use in printed Rel. notes*/
+{
+	margin: 1.75em 0;
+	margin-bottom: .1em;
+	margin-top: 1.75em;
+	font-weight: bold;
+	font-size: 18pt;
+}
+
+p.RelNotes
+{
+	margin-top: 0;
+	margin-bottom: 0;
+	font-size: 11pt;
+}
+
+h1.title
+{
+	font-weight: normal;
+	font-size: 3.5em;
+	page-break-before: always;
+}
+
+p.Title1	/*Not used*/
+{
+	font-size: 1.26em;
+	font-style: normal;
+	font-weight: bold;
+	margin: 1.75em 0;
+}
+
+p.Title2	/*Not used*/
+{
+	font-size: 1.26em;
+	font-style: normal;
+	font-weight: bold;
+	margin: 1.75em 0;
+	margin-bottom: .1em;
+}
+
+p.Title3	/*Not used*/
+{
+	font-size: .75em;
+	font-weight: bolder;
+}
+
+p.ContentHeading	/*Use this style for the Content heading in printed Rel Notes*/
+{
+	font-size: 3.5em;
+}
+
+div.button-group
+{
+	
+}
+
+h2.RelNotesProdGroup	/*Use for H2 Prod. group in Rel. notes*/
+{
+	font-weight: normal;
+	font-style: normal;
+	margin-bottom: 0;
+	margin-top: 1.50em;
+	font-size: 2.30em;
+}
+
+h2.RelNotes-2	/*Use in Rel.notes, following prod. group heading*/
+{
+	margin-top: 0;
+	margin-bottom: .1em;
+	font-weight: bold;
+	font-size: 18pt;
+}
+
+h4.RelNotes
+{
+	margin-bottom: 0;
+	font-weight: bolder;
+	margin-top: 1.12em;
+}
+
+h4.RelNotes-2
+{
+	margin-top: 0;
+	margin-bottom: .1em;
+	font-weight: bolder;
+}
+
+h3.RelNotes
+{
+	margin-bottom: 0;
+	margin-top: 1.0em;
+	font-weight: bolder;
+	font-size: 14pt;
+}
+
+h3.RelNotes-2
+{
+	margin-bottom: .1em;
+	margin-top: 0;
+	font-weight: bolder;
+	font-size: 14pt;
+}
+
+MadCap|xref.RelLinkPageNumber
+{
+	mc-format: '{paratext}';
+}
+
+MadCap|xref.PageNumberInPrint
+{
+	mc-format: '{quote}{paratext}{quote} on page {page}';
+}
+
+h2.RelNotesSection	/*Use for H2 Rel. notes Section - New_Enhanced or Fixed*/
+{
+	font-weight: normal;
+	font-style: normal;
+	margin-top: 1.50em;
+	font-size: 2.50em;
+	margin-bottom: 0.75;
+	border-top: solid 1px #000000;
+}
+
+table.NoBorders
+{
+	border: none 0px #000000;
+	border-width: 0px;
+	border-style: none;
+	mc-hide-bottom-ruling: false;
+}
+
+p.TableText
+{
+	display: table-cell;
+	vertical-align: top;
+}
+
+h4.HomePage
+{
+	margin-bottom: .25em;
+}
+
+h1.PDFTitle
+{
+	font-weight: normal;
+	page-break-before: always;
+	font-size: 2.75em;
+}
+
+/*<meta sourceDocument="C:\Users\larah\OneDrive - LS Retail\LS Omni Docs\LS Omni Mobile Inventory Android Install and Quick Guide.docx" />*/
+
+MadCap|xref.ContinueFrom
+{
+	mc-format: '(continued from {title})';
+}
+
+p.p_1
+{
+	text-align: center;
+	mc-hidden: hidden;
+}
+
+p.p_2
+{
+	text-align: center;
+	font-weight: bold;
+	mc-hidden: hidden;
+}
+
+span.span_2
+{
+	font-family: 'Lucida Sans';
+	font-size: 14pt;
+}
+
+p.p_3
+{
+	font-family: 'Lucida Sans';
+	mc-hidden: hidden;
+}
+
+p.p_4
+{
+	text-align: left;
+	mc-hidden: hidden;
+}
+
+li.li_1
+{
+	margin-left: 28pt;
+}
+
+ol.ol_1
+{
+	padding-left: 0px;
+	list-style-type: decimal;
+	margin-left: 27pt;
+}
+
+ul.ul_1
+{
+	padding-left: 0px;
+	list-style-type: disc;
+	margin-left: 36pt;
+}
+
+img.img_1
+{
+	left: 0;
+	text-align: left;
+	z-index: 1;
+	visibility: visible;
+	mso-wrap-style: square;
+	mso-width-percent: 0;
+	mso-height-percent: 0;
+	mso-wrap-distance-left: 9pt;
+	mso-wrap-distance-top: 0;
+	mso-wrap-distance-right: 9pt;
+	mso-wrap-distance-bottom: 0;
+	mso-position-horizontal: absolute;
+	mso-position-horizontal-relative: text;
+	mso-position-vertical: absolute;
+	mso-position-vertical-relative: text;
+	mso-width-percent: 0;
+	mso-height-percent: 0;
+	mso-width-relative: margin;
+	mso-height-relative: margin;
+	margin-left: 0pt;
+	width: 28px;
+	height: 28px;
+}
+
+span.span_3
+{
+	font-size: 11pt;
+}
+
+p.p_5
+{
+	margin-bottom: 0pt;
+	margin-left: 31pt;
+	margin-right: 31pt;
+	mc-hidden: hidden;
+}
+
+p.p_6
+{
+	margin-bottom: 0pt;
+	margin-left: 31pt;
+	margin-right: 31pt;
+	text-align: left;
+	mc-hidden: hidden;
+}
+
+span.span_5
+{
+	text-decoration: underline;
+}
+
+span.span_6
+{
+	font-weight: bold;
+	text-decoration: underline;
+}
+
+p.p_7
+{
+	margin-bottom: 0pt;
+	margin-left: 31pt;
+	text-align: left;
+	mc-hidden: hidden;
+}
+
+p.p_8
+{
+	margin-bottom: 0pt;
+	mc-hidden: hidden;
+}
+
+li.li_2
+{
+	margin-bottom: 0pt;
+}
+
+p.p_9
+{
+	margin-bottom: 0pt;
+	text-align: left;
+	mc-hidden: hidden;
+}
+
+li.li_3
+{
+	margin-bottom: 0pt;
+	text-align: left;
+}
+
+col.col_1
+{
+	width: 92pt;
+}
+
+col.col_2
+{
+	width: 305pt;
+}
+
+col.col_3
+{
+	width: 73pt;
+}
+
+p.p_10
+{
+	font-weight: bold;
+	mc-hidden: hidden;
+}
+
+td.td_1
+{
+	background-color: #auto;
+	border-top-width: 1pt;
+	border-top-color: black;
+	border-left-width: 1pt;
+	border-left-color: black;
+	border-bottom-width: 1pt;
+	border-bottom-color: black;
+	border-right-width: 1pt;
+	border-right-color: black;
+}
+
+td.td_2
+{
+	background-color: #auto;
+	border-top-width: 1pt;
+	border-top-color: black;
+	border-bottom-width: 1pt;
+	border-bottom-color: black;
+	border-right-width: 1pt;
+	border-right-color: black;
+}
+
+td.td_3
+{
+	background-color: #auto;
+	border-left-width: 1pt;
+	border-left-color: black;
+	border-bottom-width: 1pt;
+	border-bottom-color: black;
+	border-right-width: 1pt;
+	border-right-color: black;
+}
+
+td.td_4
+{
+	background-color: #auto;
+	border-bottom-width: 1pt;
+	border-bottom-color: black;
+	border-right-width: 1pt;
+	border-right-color: black;
+}
+
+p.p_11
+{
+	margin-top: 12pt;
+	mc-hidden: hidden;
+}
+
+img.img_2
+{
+	left: 0;
+	text-align: left;
+	z-index: 2;
+	visibility: visible;
+	mso-wrap-style: square;
+	mso-width-percent: 0;
+	mso-height-percent: 0;
+	mso-wrap-distance-left: 9pt;
+	mso-wrap-distance-top: 0;
+	mso-wrap-distance-right: 9pt;
+	mso-wrap-distance-bottom: 0;
+	mso-position-horizontal: absolute;
+	mso-position-horizontal-relative: text;
+	mso-position-vertical: absolute;
+	mso-position-vertical-relative: text;
+	mso-width-percent: 0;
+	mso-height-percent: 0;
+	mso-width-relative: margin;
+	mso-height-relative: margin;
+	margin-left: 0;
+	width: 29px;
+	height: 29px;
+}
+
+p.p_12
+{
+	margin-left: 35pt;
+	mc-hidden: hidden;
+}
+
+span.span_7
+{
+	font-weight: bold;
+	font-size: 11pt;
+}
+
+li.li_4
+{
+	font-weight: bold;
+}
+
+p.p_13
+{
+	font-family: 'Lucida Sans';
+	font-weight: bold;
+	font-size: 14pt;
+	mc-hidden: hidden;
+}
+
+ul.ul_2
+{
+	padding-left: 0px;
+	list-style-type: disc;
+	margin-left: 54pt;
+}
+
+ol.ol_2
+{
+	padding-left: 0px;
+	list-style-type: decimal;
+	margin-left: 34pt;
+}
+
+img.img_3
+{
+	left: 0;
+	text-align: left;
+	z-index: 1;
+	visibility: visible;
+	mso-wrap-style: square;
+	mso-width-percent: 0;
+	mso-height-percent: 0;
+	mso-wrap-distance-left: 9pt;
+	mso-wrap-distance-top: 0;
+	mso-wrap-distance-right: 9pt;
+	mso-wrap-distance-bottom: 0;
+	mso-position-horizontal: absolute;
+	mso-position-horizontal-relative: page;
+	mso-position-vertical: absolute;
+	mso-position-vertical-relative: page;
+	mso-width-percent: 0;
+	mso-height-percent: 0;
+	mso-width-relative: margin;
+	mso-height-relative: margin;
+	margin-left: 39.95pt;
+	width: 216px;
+	height: 53px;
+}
+
+p.p_14
+{
+	margin-left: 5pt;
+	margin-right: 5pt;
+	text-align: center;
+	mc-hidden: hidden;
+}
+
+span.span_8
+{
+	font-family: Calibri;
+}
+
+/*<meta sourceDocument="C:\Users\larah\Downloads\LS+Omni+Release+Notes (2).docx" />*/
+/*<meta sourceDocument="C:\Users\larah\Downloads\LS+Omni+Release+Notes (2).docx" />*/
+
+p.p_table	/*For use in table cells */
+{
+	font-family: 'Source Sans Pro', sans-serif;
+	color: #242d2f;
+	letter-spacing: 1px;
+	font-size: 10pt;
+}
+
+ul.ul_table	/*For use in table cells*/
+{
+	font-family: 'Source Sans Pro', sans-serif;
+	letter-spacing: 1px;
+	font-size: 10pt;
+}
+
+li.li_table	/*For use in lists in table cells*/
+{
+	font-family: 'Source Sans Pro', sans-serif;
+	letter-spacing: 1px;
+	margin-top: 0.3em;
+	font-size: 10pt;
+}
+
+/*<meta sourceDocument="C:\Users\larah\OneDrive - LS Retail\Documents\How to set Host File Entries (KDS).docx" />*/
+
+#myBtn
+{
+	display: none;
+	position: fixed;
+	right: 30px;
+	z-index: 99;
+	font-size: 18px;
+	font-weight: bold;
+	outline: none;
+	color: #555;
+	cursor: pointer;
+	padding: 15px;
+	border-radius: 4px;
+	background-position: center;
+	background-repeat: no-repeat;
+	border: none 0px transparent;
+	margin-right: 10px;
+	bottom: 20px;
+}
+
+p.shortcut
+{
+	font-family: 'Source Sans Pro', sans-serif;
+	font-size: 11.0pt;
+	color: #242d2f;
+	letter-spacing: 1px;
+	margin-left: 40px;
+}
+
+/*<meta sourceDocument="C:\Users\larah\OneDrive - LS Retail\Documents\LS Central - ScanPayGo - User Guide.docx" />*/
+
+_generic_#myBtn	/*Back-to-Top button */
+{
+	
+}
+
+h2.RelNotesProdGroup	/*Use for H2 Prod. group in Rel. notes*/
+{
+	font-weight: normal;
+	font-style: normal;
+	margin-bottom: 0;
+	margin-top: 1.50em;
+	font-size: 2.00em;
+}
+
+p.shortcut	/*Use to indent shortcut links to bookmarks*/
+{
+	font-family: 'Source Sans Pro', sans-serif;
+	font-size: 11.0pt;
+	color: #242d2f;
+	letter-spacing: 1px;
+	margin-left: 40px;
+}
+
+/*<meta sourceDocument="C:\Users\larah\OneDrive - LS Retail\Documents\LS Central - ScanPayGo - Data setup information.docx" />*/
+

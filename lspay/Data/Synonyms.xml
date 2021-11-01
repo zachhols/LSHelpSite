@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<MadCapSynonyms xml:lang="en-us">
+    <Groups />
+    <Directional>
+        <DirectionalSynonym From="NAV" To="nav" />
+        <DirectionalSynonym From="color" To="colour" />
+    </Directional>
+</MadCapSynonyms>

@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<browserconfig>
+    <msapplication>
+        <tile>
+            <square70x70logo src="http://help.lspay.lsretail.com/Skins/Favicons/smalltile.png" />
+            <square150x150logo src="http://help.lspay.lsretail.com/Skins/Favicons/mediumtile.png" />
+            <wide310x150logo src="http://help.lspay.lsretail.com/Skins/Favicons/Software Enhancer Isotype_Favicon.png" />
+            <square310x310logo src="http://help.lspay.lsretail.com/Skins/Favicons/largetile.png" />
+            <TileColor>#fffffff</TileColor>
+        </tile>
+    </msapplication>
+</browserconfig>
